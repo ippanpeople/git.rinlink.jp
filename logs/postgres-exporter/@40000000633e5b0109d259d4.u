@@ -1,0 +1,4 @@
+2022-10-06_00:52:11.76962 ts=2022-10-06T00:52:11.769Z caller=log.go:168 level=info msg="Listening on address" address=localhost:9187
+2022-10-06_00:52:11.77015 level=info ts=2022-10-06T00:52:11.770Z caller=tls_config.go:191 msg="TLS is disabled." http2=false
+2022-10-06_00:52:46.36164 ts=2022-10-06T00:52:46.360Z caller=log.go:168 level=info msg="Listening on address" address=localhost:9187
+2022-10-06_00:52:46.36173 level=info ts=2022-10-06T00:52:46.361Z caller=tls_config.go:191 msg="TLS is disabled." http2=false

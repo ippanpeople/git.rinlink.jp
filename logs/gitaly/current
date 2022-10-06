@@ -1,0 +1,28 @@
+{"level":"info","msg":"Wrapper started","pid":292,"time":"2022-10-06T04:39:34.476Z","wrapper":292}
+{"level":"info","msg":"finding process","pid":292,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2022-10-06T04:39:34.476Z","wrapper":292}
+{"level":"info","msg":"spawning a process","pid":292,"time":"2022-10-06T04:39:34.476Z","wrapper":292}
+{"level":"info","msg":"monitoring process","pid":292,"process":298,"time":"2022-10-06T04:39:34.476Z","wrapper":292}
+time="2022-10-06T13:39:34+09:00" level=info msg="Starting Gitaly, version 15.4.2"
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","time":"2022-10-06T04:39:34.779Z"}
+{"level":"info","msg":"License database preloaded","time":"2022-10-06T04:39:38.587Z"}
+{"error":"list gitaly process directory: open /sys/fs/cgroup/memory/gitaly: no such file or directory","level":"error","msg":"failed to clean up memory cgroups","time":"2022-10-06T04:39:38.587Z"}
+{"error":"list gitaly process directory: open /sys/fs/cgroup/cpu/gitaly: no such file or directory","level":"error","msg":"failed to clean up cpu cgroups","time":"2022-10-06T04:39:38.587Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","storage":"default","time":"2022-10-06T04:39:38.703Z","time_ms":0}
+{"level":"info","msg":"clearing disk cache object folder","storage":"default","time":"2022-10-06T04:39:38.703Z"}
+{"level":"info","msg":"moving disk cache object folder to /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache2086408477","storage":"default","time":"2022-10-06T04:39:38.703Z"}
+{"level":"info","msg":"disk cache object folder doesn't exist, no need to remove","storage":"default","time":"2022-10-06T04:39:38.703Z"}
+{"level":"info","msg":"Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/cache","path":"/var/opt/gitlab/git-data/repositories/+gitaly/cache","time":"2022-10-06T04:39:38.703Z"}
+{"level":"info","msg":"Starting file walker for /var/opt/gitlab/git-data/repositories/+gitaly/state","path":"/var/opt/gitlab/git-data/repositories/+gitaly/state","time":"2022-10-06T04:39:38.704Z"}
+{"level":"info","msg":"cleared all cache object files in /var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache2086408477 after 116.884µs","storage":"default","time":"2022-10-06T04:39:38.704Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.0","supervisor.rss_threshold":209715200,"time":"2022-10-06T04:39:39.202Z"}
+{"level":"info","msg":"starting RSS monitor","supervisor.name":"gitaly-ruby.1","supervisor.rss_threshold":209715200,"time":"2022-10-06T04:39:39.203Z"}
+{"level":"warning","msg":"[core] [Channel #3 SubChannel #4] grpc: addrConn.createTransport failed to connect to {\n  \"Addr\": \"/var/opt/gitlab/gitaly/run/gitaly-298/sock.d/ruby.1\",\n  \"ServerName\": \"/var/opt/gitlab/gitaly/run/gitaly-298/sock.d/ruby.1\",\n  \"Attributes\": null,\n  \"BalancerAttributes\": null,\n  \"Type\": 0,\n  \"Metadata\": null\n}. Err: connection error: desc = \"transport: Error while dialing dial unix /var/opt/gitlab/gitaly/run/gitaly-298/sock.d/ruby.1: connect: no such file or directory\"","pid":298,"system":"system","time":"2022-10-06T04:39:39.203Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","298","/var/opt/gitlab/gitaly/run/gitaly-298/sock.d/ruby.0"],"supervisor.name":"gitaly-ruby.0","supervisor.pid":320,"time":"2022-10-06T04:39:39.203Z"}
+{"level":"warning","msg":"spawned","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","298","/var/opt/gitlab/gitaly/run/gitaly-298/sock.d/ruby.1"],"supervisor.name":"gitaly-ruby.1","supervisor.pid":321,"time":"2022-10-06T04:39:39.203Z"}
+{"level":"warning","msg":"[core] [Channel #1 SubChannel #5] grpc: addrConn.createTransport failed to connect to {\n  \"Addr\": \"/var/opt/gitlab/gitaly/run/gitaly-298/sock.d/ruby.0\",\n  \"ServerName\": \"/var/opt/gitlab/gitaly/run/gitaly-298/sock.d/ruby.0\",\n  \"Attributes\": null,\n  \"BalancerAttributes\": null,\n  \"Type\": 0,\n  \"Metadata\": null\n}. Err: connection error: desc = \"transport: Error while dialing dial unix /var/opt/gitlab/gitaly/run/gitaly-298/sock.d/ruby.0: connect: no such file or directory\"","pid":298,"system":"system","time":"2022-10-06T04:39:39.204Z"}
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at unix address","time":"2022-10-06T04:39:39.210Z"}
+{"address":"/var/opt/gitlab/gitaly/run/gitaly-298/sock.d/intern","level":"info","msg":"listening at unix address","time":"2022-10-06T04:39:39.210Z"}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","time":"2022-10-06T04:39:39.210Z"}
+{"level":"info","msg":"maintenance: daily scheduled","pid":298,"scheduled":"2022-10-07T12:00:00+09:00","time":"2022-10-06T04:39:39.210Z"}
+{"level":"info","msg":"PID 321 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","298","/var/opt/gitlab/gitaly/run/gitaly-298/sock.d/ruby.1"],"supervisor.name":"gitaly-ruby.1","time":"2022-10-06T04:39:39.567Z"}
+{"level":"info","msg":"PID 320 BUNDLE_GEMFILE=/opt/gitlab/embedded/service/gitaly-ruby/Gemfile","supervisor.args":["bundle","exec","bin/ruby-cd","/var/opt/gitlab/gitaly","/opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby","298","/var/opt/gitlab/gitaly/run/gitaly-298/sock.d/ruby.0"],"supervisor.name":"gitaly-ruby.0","time":"2022-10-06T04:39:39.567Z"}

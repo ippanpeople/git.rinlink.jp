@@ -1,0 +1,860 @@
+2022-10-06_00:26:38.08429 ts=2022-10-06T00:26:38.084Z caller=log.go:168 level=info msg="Listening on address" address=localhost:9187
+2022-10-06_00:26:38.08479 level=info ts=2022-10-06T00:26:38.084Z caller=tls_config.go:191 msg="TLS is disabled." http2=false
+2022-10-06_00:26:40.58392 ts=2022-10-06T00:26:40.583Z caller=log.go:168 level=info msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:26:40.58947 ts=2022-10-06T00:26:40.589Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:26:40.59039 ts=2022-10-06T00:26:40.590Z caller=log.go:168 level=info msg="Semantic version changed" server=/var/opt/gitlab/postgresql:5432 from=0.0.0 to=13.6.0
+2022-10-06_00:26:40.59052 ts=2022-10-06T00:26:40.590Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=procpid
+2022-10-06_00:26:40.59054 ts=2022-10-06T00:26:40.590Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=flush_location
+2022-10-06_00:26:40.59054 ts=2022-10-06T00:26:40.590Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=sent_location
+2022-10-06_00:26:40.59055 ts=2022-10-06T00:26:40.590Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=replay_location
+2022-10-06_00:26:40.59056 ts=2022-10-06T00:26:40.590Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=pg_xlog_location_diff
+2022-10-06_00:26:40.59058 ts=2022-10-06T00:26:40.590Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=write_location
+2022-10-06_00:26:40.59165 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_slow cache_seconds=0
+2022-10-06_00:26:40.59167 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_long_running_transactions cache_seconds=0
+2022-10-06_00:26:40.59168 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_stuck_idle_in_transaction cache_seconds=0
+2022-10-06_00:26:40.59169 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_vacuum_analyze cache_seconds=0
+2022-10-06_00:26:40.59169 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_vacuum_queue cache_seconds=0
+2022-10-06_00:26:40.59172 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_stat_activity_autovacuum_active cache_seconds=0
+2022-10-06_00:26:40.59172 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_long_running_transactions_marginalia cache_seconds=0
+2022-10-06_00:26:40.59174 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_blocked cache_seconds=0
+2022-10-06_00:26:40.59174 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_replication cache_seconds=0
+2022-10-06_00:26:40.59176 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_oldest_blocked cache_seconds=0
+2022-10-06_00:26:40.59176 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_stat_activity_autovacuum cache_seconds=0
+2022-10-06_00:26:40.59177 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_total_relation_size cache_seconds=0
+2022-10-06_00:26:40.59178 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_vacuum cache_seconds=0
+2022-10-06_00:26:40.59180 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_stat_activity_marginalia_sampler cache_seconds=0
+2022-10-06_00:26:40.59180 ts=2022-10-06T00:26:40.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_postmaster cache_seconds=0
+2022-10-06_00:26:40.59241 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_long_running_transactions_marginalia
+2022-10-06_00:26:40.59242 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_stat_activity_autovacuum
+2022-10-06_00:26:40.59244 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_stat_activity_marginalia_sampler
+2022-10-06_00:26:40.59244 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_vacuum_queue
+2022-10-06_00:26:40.59247 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_blocked
+2022-10-06_00:26:40.59247 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_vacuum
+2022-10-06_00:26:40.59247 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_replication
+2022-10-06_00:26:40.59249 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_slow
+2022-10-06_00:26:40.59249 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_total_relation_size
+2022-10-06_00:26:40.59249 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_stuck_idle_in_transaction
+2022-10-06_00:26:40.59251 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_postmaster
+2022-10-06_00:26:40.59251 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_vacuum_analyze
+2022-10-06_00:26:40.59252 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_stat_activity_autovacuum_active
+2022-10-06_00:26:40.59253 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_long_running_transactions
+2022-10-06_00:26:40.59253 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_oldest_blocked
+2022-10-06_00:26:40.59254 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_stat_activity_autovacuum
+2022-10-06_00:26:40.59255 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_vacuum
+2022-10-06_00:26:40.59256 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_slow
+2022-10-06_00:26:40.59256 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_stuck_idle_in_transaction
+2022-10-06_00:26:40.59258 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_vacuum_analyze
+2022-10-06_00:26:40.59258 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_long_running_transactions_marginalia
+2022-10-06_00:26:40.59260 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_oldest_blocked
+2022-10-06_00:26:40.59260 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_vacuum_queue
+2022-10-06_00:26:40.59262 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_stat_activity_autovacuum_active
+2022-10-06_00:26:40.59262 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_replication
+2022-10-06_00:26:40.59263 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_long_running_transactions
+2022-10-06_00:26:40.59264 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_blocked
+2022-10-06_00:26:40.59264 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_total_relation_size
+2022-10-06_00:26:40.59266 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_stat_activity_marginalia_sampler
+2022-10-06_00:26:40.59266 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_postmaster
+2022-10-06_00:26:40.59270 ts=2022-10-06T00:26:40.592Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:26:40.59515 ts=2022-10-06T00:26:40.595Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:26:40.59746 ts=2022-10-06T00:26:40.597Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:26:40.59961 ts=2022-10-06T00:26:40.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:26:40.60470 ts=2022-10-06T00:26:40.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:26:40.62926 ts=2022-10-06T00:26:40.629Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:26:40.63002 ts=2022-10-06T00:26:40.629Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:26:40.63137 ts=2022-10-06T00:26:40.631Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:26:40.63300 ts=2022-10-06T00:26:40.632Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:26:40.63417 ts=2022-10-06T00:26:40.634Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:26:40.63491 ts=2022-10-06T00:26:40.634Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:26:40.63552 ts=2022-10-06T00:26:40.635Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:26:40.63572 ts=2022-10-06T00:26:40.635Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:26:40.63678 ts=2022-10-06T00:26:40.636Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:26:40.63719 ts=2022-10-06T00:26:40.637Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:26:40.63783 ts=2022-10-06T00:26:40.637Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:26:40.63851 ts=2022-10-06T00:26:40.638Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:26:40.63874 ts=2022-10-06T00:26:40.638Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:26:40.89824 ts=2022-10-06T00:26:40.898Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:26:40.89955 ts=2022-10-06T00:26:40.899Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:26:40.90026 ts=2022-10-06T00:26:40.900Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:26:40.90116 ts=2022-10-06T00:26:40.901Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:26:40.90265 ts=2022-10-06T00:26:40.902Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:26:40.90353 ts=2022-10-06T00:26:40.903Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:26:55.58418 ts=2022-10-06T00:26:55.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:26:55.58485 ts=2022-10-06T00:26:55.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:26:55.58645 ts=2022-10-06T00:26:55.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:26:55.58729 ts=2022-10-06T00:26:55.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:26:55.58783 ts=2022-10-06T00:26:55.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:26:55.58805 ts=2022-10-06T00:26:55.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:26:55.64517 ts=2022-10-06T00:26:55.644Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:26:55.64518 ts=2022-10-06T00:26:55.644Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:26:55.64557 ts=2022-10-06T00:26:55.645Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:26:55.64634 ts=2022-10-06T00:26:55.646Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:26:55.65766 ts=2022-10-06T00:26:55.657Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:26:55.65820 ts=2022-10-06T00:26:55.658Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:26:55.65955 ts=2022-10-06T00:26:55.659Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:26:55.66025 ts=2022-10-06T00:26:55.660Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:26:55.66120 ts=2022-10-06T00:26:55.661Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:26:55.66441 ts=2022-10-06T00:26:55.664Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:26:55.67550 ts=2022-10-06T00:26:55.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:26:55.67598 ts=2022-10-06T00:26:55.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:26:55.67706 ts=2022-10-06T00:26:55.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:26:55.67735 ts=2022-10-06T00:26:55.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:26:55.67844 ts=2022-10-06T00:26:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:26:55.67894 ts=2022-10-06T00:26:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:26:55.67945 ts=2022-10-06T00:26:55.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:26:55.67958 ts=2022-10-06T00:26:55.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:26:55.68021 ts=2022-10-06T00:26:55.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:27:10.58405 ts=2022-10-06T00:27:10.583Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:27:10.58409 ts=2022-10-06T00:27:10.583Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:27:10.58638 ts=2022-10-06T00:27:10.585Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:27:10.58818 ts=2022-10-06T00:27:10.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:27:10.58820 ts=2022-10-06T00:27:10.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:27:10.59967 ts=2022-10-06T00:27:10.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:27:10.60053 ts=2022-10-06T00:27:10.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:27:10.60104 ts=2022-10-06T00:27:10.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:27:10.60122 ts=2022-10-06T00:27:10.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:27:10.65814 ts=2022-10-06T00:27:10.657Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:27:10.65816 ts=2022-10-06T00:27:10.657Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:27:10.65853 ts=2022-10-06T00:27:10.658Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:27:10.65906 ts=2022-10-06T00:27:10.658Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:27:10.66030 ts=2022-10-06T00:27:10.660Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:27:10.66159 ts=2022-10-06T00:27:10.661Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:27:10.66220 ts=2022-10-06T00:27:10.662Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:27:10.66308 ts=2022-10-06T00:27:10.662Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:27:10.66583 ts=2022-10-06T00:27:10.665Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:27:10.67612 ts=2022-10-06T00:27:10.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:27:10.67684 ts=2022-10-06T00:27:10.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:27:10.67709 ts=2022-10-06T00:27:10.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:27:10.67820 ts=2022-10-06T00:27:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:27:10.67875 ts=2022-10-06T00:27:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:27:10.67924 ts=2022-10-06T00:27:10.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:27:10.67940 ts=2022-10-06T00:27:10.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:27:18.59755 ts=2022-10-06T00:27:18.596Z caller=log.go:168 level=info msg="Listening on address" address=localhost:9187
+2022-10-06_00:27:18.59758 level=info ts=2022-10-06T00:27:18.597Z caller=tls_config.go:191 msg="TLS is disabled." http2=false
+2022-10-06_00:27:25.58448 ts=2022-10-06T00:27:25.584Z caller=log.go:168 level=info msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:27:25.58916 ts=2022-10-06T00:27:25.589Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:27:25.58981 ts=2022-10-06T00:27:25.589Z caller=log.go:168 level=info msg="Semantic version changed" server=/var/opt/gitlab/postgresql:5432 from=0.0.0 to=13.6.0
+2022-10-06_00:27:25.58995 ts=2022-10-06T00:27:25.589Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=write_location
+2022-10-06_00:27:25.58997 ts=2022-10-06T00:27:25.589Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=sent_location
+2022-10-06_00:27:25.58997 ts=2022-10-06T00:27:25.589Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=pg_xlog_location_diff
+2022-10-06_00:27:25.58998 ts=2022-10-06T00:27:25.589Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=replay_location
+2022-10-06_00:27:25.58999 ts=2022-10-06T00:27:25.589Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=procpid
+2022-10-06_00:27:25.59000 ts=2022-10-06T00:27:25.589Z caller=log.go:168 level=debug msg="Column is being forced to discard due to version incompatibility" column=flush_location
+2022-10-06_00:27:25.59105 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_total_relation_size cache_seconds=0
+2022-10-06_00:27:25.59108 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_blocked cache_seconds=0
+2022-10-06_00:27:25.59108 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_oldest_blocked cache_seconds=0
+2022-10-06_00:27:25.59108 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_vacuum_queue cache_seconds=0
+2022-10-06_00:27:25.59110 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_stuck_idle_in_transaction cache_seconds=0
+2022-10-06_00:27:25.59110 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_vacuum_analyze cache_seconds=0
+2022-10-06_00:27:25.59113 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_stat_activity_autovacuum cache_seconds=0
+2022-10-06_00:27:25.59113 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_long_running_transactions_marginalia cache_seconds=0
+2022-10-06_00:27:25.59113 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_slow cache_seconds=0
+2022-10-06_00:27:25.59115 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_long_running_transactions cache_seconds=0
+2022-10-06_00:27:25.59115 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_vacuum cache_seconds=0
+2022-10-06_00:27:25.59116 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_stat_activity_autovacuum_active cache_seconds=0
+2022-10-06_00:27:25.59117 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_replication cache_seconds=0
+2022-10-06_00:27:25.59117 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_postmaster cache_seconds=0
+2022-10-06_00:27:25.59119 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="New user metric namespace from YAML metric" metric=pg_stat_activity_marginalia_sampler cache_seconds=0
+2022-10-06_00:27:25.59136 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_total_relation_size
+2022-10-06_00:27:25.59137 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_stat_activity_autovacuum_active
+2022-10-06_00:27:25.59137 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_vacuum_analyze
+2022-10-06_00:27:25.59138 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_vacuum_queue
+2022-10-06_00:27:25.59138 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_stat_activity_autovacuum
+2022-10-06_00:27:25.59140 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_replication
+2022-10-06_00:27:25.59140 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_slow
+2022-10-06_00:27:25.59140 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_oldest_blocked
+2022-10-06_00:27:25.59141 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_vacuum
+2022-10-06_00:27:25.59141 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_blocked
+2022-10-06_00:27:25.59141 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_stuck_idle_in_transaction
+2022-10-06_00:27:25.59143 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_long_running_transactions_marginalia
+2022-10-06_00:27:25.59144 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_postmaster
+2022-10-06_00:27:25.59144 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_long_running_transactions
+2022-10-06_00:27:25.59144 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new metric from user YAML file" metric=pg_stat_activity_marginalia_sampler
+2022-10-06_00:27:25.59145 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_long_running_transactions_marginalia
+2022-10-06_00:27:25.59146 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_stuck_idle_in_transaction
+2022-10-06_00:27:25.59147 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_slow
+2022-10-06_00:27:25.59147 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_long_running_transactions
+2022-10-06_00:27:25.59148 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_replication
+2022-10-06_00:27:25.59149 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_postmaster
+2022-10-06_00:27:25.59149 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_stat_activity_marginalia_sampler
+2022-10-06_00:27:25.59150 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_blocked
+2022-10-06_00:27:25.59151 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_vacuum_queue
+2022-10-06_00:27:25.59152 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_vacuum_analyze
+2022-10-06_00:27:25.59153 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_vacuum
+2022-10-06_00:27:25.59153 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_stat_activity_autovacuum_active
+2022-10-06_00:27:25.59155 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_total_relation_size
+2022-10-06_00:27:25.59155 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_oldest_blocked
+2022-10-06_00:27:25.59155 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Adding new query override from user YAML file" query_override=pg_stat_activity_autovacuum
+2022-10-06_00:27:25.59161 ts=2022-10-06T00:27:25.591Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:27:25.59423 ts=2022-10-06T00:27:25.594Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:27:25.59459 ts=2022-10-06T00:27:25.594Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:27:25.60762 ts=2022-10-06T00:27:25.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:27:25.60921 ts=2022-10-06T00:27:25.609Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:27:25.61109 ts=2022-10-06T00:27:25.611Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:27:25.83505 ts=2022-10-06T00:27:25.834Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:27:25.85040 ts=2022-10-06T00:27:25.850Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:27:25.85125 ts=2022-10-06T00:27:25.851Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:27:25.85194 ts=2022-10-06T00:27:25.851Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:27:25.85309 ts=2022-10-06T00:27:25.853Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:27:25.85392 ts=2022-10-06T00:27:25.853Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:27:25.85467 ts=2022-10-06T00:27:25.854Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:27:25.86008 ts=2022-10-06T00:27:25.860Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:27:25.86101 ts=2022-10-06T00:27:25.860Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:27:25.86164 ts=2022-10-06T00:27:25.861Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:27:25.86293 ts=2022-10-06T00:27:25.862Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:27:25.86339 ts=2022-10-06T00:27:25.863Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:27:25.86460 ts=2022-10-06T00:27:25.864Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:27:25.86527 ts=2022-10-06T00:27:25.865Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:27:25.86552 ts=2022-10-06T00:27:25.865Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:27:25.86613 ts=2022-10-06T00:27:25.866Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:27:25.86679 ts=2022-10-06T00:27:25.866Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:27:25.86737 ts=2022-10-06T00:27:25.867Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:27:40.58453 ts=2022-10-06T00:27:40.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:27:40.58479 ts=2022-10-06T00:27:40.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:27:40.58638 ts=2022-10-06T00:27:40.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:27:40.58748 ts=2022-10-06T00:27:40.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:27:40.58807 ts=2022-10-06T00:27:40.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:27:40.58822 ts=2022-10-06T00:27:40.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:27:40.58877 ts=2022-10-06T00:27:40.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:27:40.58933 ts=2022-10-06T00:27:40.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:27:40.58983 ts=2022-10-06T00:27:40.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:27:40.60117 ts=2022-10-06T00:27:40.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:27:40.60146 ts=2022-10-06T00:27:40.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:27:40.60258 ts=2022-10-06T00:27:40.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:27:40.60311 ts=2022-10-06T00:27:40.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:27:40.60375 ts=2022-10-06T00:27:40.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:27:40.66220 ts=2022-10-06T00:27:40.662Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:27:40.67293 ts=2022-10-06T00:27:40.672Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:27:40.67354 ts=2022-10-06T00:27:40.673Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:27:40.67411 ts=2022-10-06T00:27:40.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:27:40.67441 ts=2022-10-06T00:27:40.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:27:40.67580 ts=2022-10-06T00:27:40.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:27:40.67697 ts=2022-10-06T00:27:40.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:27:40.67761 ts=2022-10-06T00:27:40.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:27:40.68111 ts=2022-10-06T00:27:40.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:27:40.68182 ts=2022-10-06T00:27:40.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:27:40.68256 ts=2022-10-06T00:27:40.682Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:27:55.58513 ts=2022-10-06T00:27:55.585Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:27:55.58538 ts=2022-10-06T00:27:55.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:27:55.58735 ts=2022-10-06T00:27:55.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:27:55.58737 ts=2022-10-06T00:27:55.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:27:55.58793 ts=2022-10-06T00:27:55.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:27:55.58949 ts=2022-10-06T00:27:55.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:27:55.58950 ts=2022-10-06T00:27:55.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:27:55.60048 ts=2022-10-06T00:27:55.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:27:55.60081 ts=2022-10-06T00:27:55.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:27:55.60195 ts=2022-10-06T00:27:55.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:27:55.60255 ts=2022-10-06T00:27:55.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:27:55.60313 ts=2022-10-06T00:27:55.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:27:55.60397 ts=2022-10-06T00:27:55.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:27:55.61394 ts=2022-10-06T00:27:55.613Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:27:55.61457 ts=2022-10-06T00:27:55.614Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:27:55.61515 ts=2022-10-06T00:27:55.615Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:27:55.61532 ts=2022-10-06T00:27:55.615Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:27:55.61682 ts=2022-10-06T00:27:55.616Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:27:55.61796 ts=2022-10-06T00:27:55.617Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:27:55.61905 ts=2022-10-06T00:27:55.618Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:27:55.67589 ts=2022-10-06T00:27:55.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:27:55.67674 ts=2022-10-06T00:27:55.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:27:55.67748 ts=2022-10-06T00:27:55.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:27:55.67805 ts=2022-10-06T00:27:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:27:55.68184 ts=2022-10-06T00:27:55.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:28:10.58555 ts=2022-10-06T00:28:10.585Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:28:10.58558 ts=2022-10-06T00:28:10.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:28:10.58698 ts=2022-10-06T00:28:10.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:28:10.58721 ts=2022-10-06T00:28:10.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:28:10.59898 ts=2022-10-06T00:28:10.598Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:28:10.60030 ts=2022-10-06T00:28:10.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:28:10.60101 ts=2022-10-06T00:28:10.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:28:10.65794 ts=2022-10-06T00:28:10.657Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:28:10.66811 ts=2022-10-06T00:28:10.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:28:10.66867 ts=2022-10-06T00:28:10.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:28:10.66920 ts=2022-10-06T00:28:10.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:28:10.66988 ts=2022-10-06T00:28:10.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:28:10.67056 ts=2022-10-06T00:28:10.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:28:10.67112 ts=2022-10-06T00:28:10.671Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:28:10.67455 ts=2022-10-06T00:28:10.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:28:10.67540 ts=2022-10-06T00:28:10.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:28:10.67589 ts=2022-10-06T00:28:10.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:28:10.67700 ts=2022-10-06T00:28:10.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:28:10.67729 ts=2022-10-06T00:28:10.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:28:10.67840 ts=2022-10-06T00:28:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:28:10.67900 ts=2022-10-06T00:28:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:28:10.67917 ts=2022-10-06T00:28:10.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:28:10.67971 ts=2022-10-06T00:28:10.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:28:10.68024 ts=2022-10-06T00:28:10.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:28:10.68076 ts=2022-10-06T00:28:10.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:28:25.58424 ts=2022-10-06T00:28:25.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:28:25.58451 ts=2022-10-06T00:28:25.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:28:25.58606 ts=2022-10-06T00:28:25.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:28:25.58718 ts=2022-10-06T00:28:25.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:28:25.58770 ts=2022-10-06T00:28:25.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:28:25.58825 ts=2022-10-06T00:28:25.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:28:25.58877 ts=2022-10-06T00:28:25.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:28:25.60013 ts=2022-10-06T00:28:25.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:28:25.60041 ts=2022-10-06T00:28:25.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:28:25.60160 ts=2022-10-06T00:28:25.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:28:25.60215 ts=2022-10-06T00:28:25.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:28:25.60234 ts=2022-10-06T00:28:25.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:28:25.60287 ts=2022-10-06T00:28:25.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:28:25.60350 ts=2022-10-06T00:28:25.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:28:25.60402 ts=2022-10-06T00:28:25.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:28:25.60456 ts=2022-10-06T00:28:25.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:28:25.60475 ts=2022-10-06T00:28:25.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:28:25.60610 ts=2022-10-06T00:28:25.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:28:25.60723 ts=2022-10-06T00:28:25.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:28:25.60780 ts=2022-10-06T00:28:25.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:28:25.66614 ts=2022-10-06T00:28:25.666Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:28:25.67609 ts=2022-10-06T00:28:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:28:25.67680 ts=2022-10-06T00:28:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:28:25.67751 ts=2022-10-06T00:28:25.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:28:25.67809 ts=2022-10-06T00:28:25.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:28:40.58541 ts=2022-10-06T00:28:40.585Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:28:40.58573 ts=2022-10-06T00:28:40.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:28:40.58742 ts=2022-10-06T00:28:40.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:28:40.59905 ts=2022-10-06T00:28:40.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:28:40.59985 ts=2022-10-06T00:28:40.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:28:40.65872 ts=2022-10-06T00:28:40.658Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:28:40.66880 ts=2022-10-06T00:28:40.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:28:40.66939 ts=2022-10-06T00:28:40.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:28:40.66993 ts=2022-10-06T00:28:40.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:28:40.67006 ts=2022-10-06T00:28:40.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:28:40.67147 ts=2022-10-06T00:28:40.671Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:28:40.67236 ts=2022-10-06T00:28:40.672Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:28:40.67294 ts=2022-10-06T00:28:40.672Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:28:40.67565 ts=2022-10-06T00:28:40.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:28:40.67634 ts=2022-10-06T00:28:40.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:28:40.67718 ts=2022-10-06T00:28:40.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:28:40.67747 ts=2022-10-06T00:28:40.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:28:40.67859 ts=2022-10-06T00:28:40.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:28:40.67914 ts=2022-10-06T00:28:40.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:28:40.67932 ts=2022-10-06T00:28:40.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:28:40.67988 ts=2022-10-06T00:28:40.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:28:40.68047 ts=2022-10-06T00:28:40.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:28:40.68097 ts=2022-10-06T00:28:40.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:28:40.68208 ts=2022-10-06T00:28:40.682Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:28:40.68275 ts=2022-10-06T00:28:40.682Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:28:55.58491 ts=2022-10-06T00:28:55.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:28:55.58517 ts=2022-10-06T00:28:55.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:28:55.58672 ts=2022-10-06T00:28:55.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:28:55.60743 ts=2022-10-06T00:28:55.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:28:55.60801 ts=2022-10-06T00:28:55.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:28:55.60856 ts=2022-10-06T00:28:55.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:28:55.60877 ts=2022-10-06T00:28:55.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:28:55.61009 ts=2022-10-06T00:28:55.610Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:28:55.61130 ts=2022-10-06T00:28:55.611Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:28:55.61190 ts=2022-10-06T00:28:55.611Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:28:55.66861 ts=2022-10-06T00:28:55.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:28:55.66951 ts=2022-10-06T00:28:55.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:28:55.67022 ts=2022-10-06T00:28:55.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:28:55.67082 ts=2022-10-06T00:28:55.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:28:55.67352 ts=2022-10-06T00:28:55.673Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:28:55.67443 ts=2022-10-06T00:28:55.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:28:55.67712 ts=2022-10-06T00:28:55.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:28:55.67770 ts=2022-10-06T00:28:55.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:28:55.67825 ts=2022-10-06T00:28:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:28:55.67876 ts=2022-10-06T00:28:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:28:55.67994 ts=2022-10-06T00:28:55.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:28:55.68021 ts=2022-10-06T00:28:55.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:28:55.68131 ts=2022-10-06T00:28:55.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:28:55.68183 ts=2022-10-06T00:28:55.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:28:55.68234 ts=2022-10-06T00:28:55.682Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:29:10.58502 ts=2022-10-06T00:29:10.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:29:10.58525 ts=2022-10-06T00:29:10.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:29:10.58691 ts=2022-10-06T00:29:10.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:29:10.58800 ts=2022-10-06T00:29:10.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:29:10.58865 ts=2022-10-06T00:29:10.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:29:10.58917 ts=2022-10-06T00:29:10.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:29:10.60055 ts=2022-10-06T00:29:10.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:29:10.60123 ts=2022-10-06T00:29:10.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:29:10.60237 ts=2022-10-06T00:29:10.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:29:10.60292 ts=2022-10-06T00:29:10.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:29:10.60310 ts=2022-10-06T00:29:10.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:29:10.60367 ts=2022-10-06T00:29:10.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:29:10.60422 ts=2022-10-06T00:29:10.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:29:10.60486 ts=2022-10-06T00:29:10.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:29:10.60539 ts=2022-10-06T00:29:10.605Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:29:10.60555 ts=2022-10-06T00:29:10.605Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:29:10.60688 ts=2022-10-06T00:29:10.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:29:10.60807 ts=2022-10-06T00:29:10.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:29:10.60861 ts=2022-10-06T00:29:10.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:29:10.66539 ts=2022-10-06T00:29:10.665Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:29:10.67564 ts=2022-10-06T00:29:10.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:29:10.67615 ts=2022-10-06T00:29:10.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:29:10.67683 ts=2022-10-06T00:29:10.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:29:10.67754 ts=2022-10-06T00:29:10.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:29:10.67807 ts=2022-10-06T00:29:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:29:25.58470 ts=2022-10-06T00:29:25.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:29:25.58493 ts=2022-10-06T00:29:25.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:29:25.58682 ts=2022-10-06T00:29:25.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:29:25.58712 ts=2022-10-06T00:29:25.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:29:25.58726 ts=2022-10-06T00:29:25.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:29:25.59922 ts=2022-10-06T00:29:25.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:29:25.60057 ts=2022-10-06T00:29:25.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:29:25.60129 ts=2022-10-06T00:29:25.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:29:25.65765 ts=2022-10-06T00:29:25.657Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:29:25.66760 ts=2022-10-06T00:29:25.667Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:29:25.66819 ts=2022-10-06T00:29:25.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:29:25.66891 ts=2022-10-06T00:29:25.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:29:25.66964 ts=2022-10-06T00:29:25.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:29:25.67025 ts=2022-10-06T00:29:25.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:29:25.67321 ts=2022-10-06T00:29:25.673Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:29:25.67412 ts=2022-10-06T00:29:25.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:29:25.67472 ts=2022-10-06T00:29:25.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:29:25.67524 ts=2022-10-06T00:29:25.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:29:25.67641 ts=2022-10-06T00:29:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:29:25.67672 ts=2022-10-06T00:29:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:29:25.67787 ts=2022-10-06T00:29:25.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:29:25.67848 ts=2022-10-06T00:29:25.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:29:25.67870 ts=2022-10-06T00:29:25.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:29:25.67930 ts=2022-10-06T00:29:25.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:29:25.67995 ts=2022-10-06T00:29:25.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:29:40.58660 ts=2022-10-06T00:29:40.586Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:29:40.58693 ts=2022-10-06T00:29:40.586Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:29:40.58850 ts=2022-10-06T00:29:40.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:29:40.58937 ts=2022-10-06T00:29:40.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:29:40.59001 ts=2022-10-06T00:29:40.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:29:40.59306 ts=2022-10-06T00:29:40.593Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:29:40.59386 ts=2022-10-06T00:29:40.593Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:29:40.59478 ts=2022-10-06T00:29:40.594Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:29:40.59518 ts=2022-10-06T00:29:40.595Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:29:40.60665 ts=2022-10-06T00:29:40.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:29:40.60722 ts=2022-10-06T00:29:40.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:29:40.60743 ts=2022-10-06T00:29:40.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:29:40.60795 ts=2022-10-06T00:29:40.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:29:40.60936 ts=2022-10-06T00:29:40.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:29:40.60937 ts=2022-10-06T00:29:40.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:29:40.61029 ts=2022-10-06T00:29:40.610Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:29:40.61080 ts=2022-10-06T00:29:40.610Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:29:40.61160 ts=2022-10-06T00:29:40.611Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:29:40.61249 ts=2022-10-06T00:29:40.612Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:29:40.61309 ts=2022-10-06T00:29:40.613Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:29:40.66941 ts=2022-10-06T00:29:40.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:29:40.67978 ts=2022-10-06T00:29:40.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:29:40.68033 ts=2022-10-06T00:29:40.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:29:40.68087 ts=2022-10-06T00:29:40.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:29:40.68099 ts=2022-10-06T00:29:40.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:29:55.58429 ts=2022-10-06T00:29:55.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:29:55.58486 ts=2022-10-06T00:29:55.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:29:55.58645 ts=2022-10-06T00:29:55.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:29:55.58713 ts=2022-10-06T00:29:55.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:29:55.58736 ts=2022-10-06T00:29:55.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:29:55.59907 ts=2022-10-06T00:29:55.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:29:55.60035 ts=2022-10-06T00:29:55.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:29:55.60104 ts=2022-10-06T00:29:55.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:29:55.65853 ts=2022-10-06T00:29:55.657Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:29:55.66778 ts=2022-10-06T00:29:55.667Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:29:55.66835 ts=2022-10-06T00:29:55.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:29:55.66901 ts=2022-10-06T00:29:55.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:29:55.66971 ts=2022-10-06T00:29:55.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:29:55.67027 ts=2022-10-06T00:29:55.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:29:55.67295 ts=2022-10-06T00:29:55.672Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:29:55.67389 ts=2022-10-06T00:29:55.673Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:29:55.67441 ts=2022-10-06T00:29:55.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:29:55.67489 ts=2022-10-06T00:29:55.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:29:55.67601 ts=2022-10-06T00:29:55.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:29:55.67631 ts=2022-10-06T00:29:55.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:29:55.67743 ts=2022-10-06T00:29:55.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:29:55.67799 ts=2022-10-06T00:29:55.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:29:55.67817 ts=2022-10-06T00:29:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:29:55.67873 ts=2022-10-06T00:29:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:29:55.67928 ts=2022-10-06T00:29:55.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:30:10.58475 ts=2022-10-06T00:30:10.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:30:10.58497 ts=2022-10-06T00:30:10.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:30:10.58709 ts=2022-10-06T00:30:10.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:30:10.58793 ts=2022-10-06T00:30:10.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:30:10.58855 ts=2022-10-06T00:30:10.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:30:10.58909 ts=2022-10-06T00:30:10.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:30:10.60046 ts=2022-10-06T00:30:10.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:30:10.60076 ts=2022-10-06T00:30:10.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:30:10.60184 ts=2022-10-06T00:30:10.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:30:10.60240 ts=2022-10-06T00:30:10.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:30:10.60259 ts=2022-10-06T00:30:10.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:30:10.60313 ts=2022-10-06T00:30:10.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:30:10.60377 ts=2022-10-06T00:30:10.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:30:10.60429 ts=2022-10-06T00:30:10.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:30:10.60480 ts=2022-10-06T00:30:10.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:30:10.60498 ts=2022-10-06T00:30:10.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:30:10.60653 ts=2022-10-06T00:30:10.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:30:10.60759 ts=2022-10-06T00:30:10.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:30:10.60823 ts=2022-10-06T00:30:10.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:30:10.66651 ts=2022-10-06T00:30:10.666Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:30:10.67680 ts=2022-10-06T00:30:10.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:30:10.67751 ts=2022-10-06T00:30:10.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:30:10.67820 ts=2022-10-06T00:30:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:30:10.67881 ts=2022-10-06T00:30:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:30:10.68150 ts=2022-10-06T00:30:10.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:30:25.58482 ts=2022-10-06T00:30:25.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:30:25.58504 ts=2022-10-06T00:30:25.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:30:25.58668 ts=2022-10-06T00:30:25.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:30:25.58732 ts=2022-10-06T00:30:25.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:30:25.58749 ts=2022-10-06T00:30:25.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:30:25.59912 ts=2022-10-06T00:30:25.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:30:25.60042 ts=2022-10-06T00:30:25.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:30:25.60114 ts=2022-10-06T00:30:25.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:30:25.65951 ts=2022-10-06T00:30:25.659Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:30:25.66956 ts=2022-10-06T00:30:25.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:30:25.67015 ts=2022-10-06T00:30:25.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:30:25.67086 ts=2022-10-06T00:30:25.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:30:25.67159 ts=2022-10-06T00:30:25.671Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:30:25.67221 ts=2022-10-06T00:30:25.672Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:30:25.67527 ts=2022-10-06T00:30:25.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:30:25.67617 ts=2022-10-06T00:30:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:30:25.67677 ts=2022-10-06T00:30:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:30:25.67733 ts=2022-10-06T00:30:25.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:30:25.67850 ts=2022-10-06T00:30:25.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:30:25.67881 ts=2022-10-06T00:30:25.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:30:25.67998 ts=2022-10-06T00:30:25.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:30:25.68059 ts=2022-10-06T00:30:25.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:30:25.68080 ts=2022-10-06T00:30:25.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:30:25.68141 ts=2022-10-06T00:30:25.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:30:25.68201 ts=2022-10-06T00:30:25.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:30:40.58475 ts=2022-10-06T00:30:40.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:30:40.58505 ts=2022-10-06T00:30:40.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:30:40.58663 ts=2022-10-06T00:30:40.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:30:40.60713 ts=2022-10-06T00:30:40.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:30:40.60775 ts=2022-10-06T00:30:40.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:30:40.60830 ts=2022-10-06T00:30:40.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:30:40.60944 ts=2022-10-06T00:30:40.609Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:30:40.61103 ts=2022-10-06T00:30:40.611Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:30:40.61231 ts=2022-10-06T00:30:40.612Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:30:40.61296 ts=2022-10-06T00:30:40.612Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:30:40.66993 ts=2022-10-06T00:30:40.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:30:40.67064 ts=2022-10-06T00:30:40.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:30:40.67138 ts=2022-10-06T00:30:40.671Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:30:40.67194 ts=2022-10-06T00:30:40.671Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:30:40.67501 ts=2022-10-06T00:30:40.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:30:40.67587 ts=2022-10-06T00:30:40.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:30:40.67604 ts=2022-10-06T00:30:40.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:30:40.67658 ts=2022-10-06T00:30:40.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:30:40.67712 ts=2022-10-06T00:30:40.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:30:40.67762 ts=2022-10-06T00:30:40.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:30:40.67884 ts=2022-10-06T00:30:40.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:30:40.67909 ts=2022-10-06T00:30:40.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:30:40.68020 ts=2022-10-06T00:30:40.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:30:40.68076 ts=2022-10-06T00:30:40.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:30:40.68128 ts=2022-10-06T00:30:40.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:30:55.58585 ts=2022-10-06T00:30:55.585Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:30:55.58611 ts=2022-10-06T00:30:55.586Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:30:55.58770 ts=2022-10-06T00:30:55.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:30:55.59916 ts=2022-10-06T00:30:55.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:30:55.59988 ts=2022-10-06T00:30:55.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:30:55.60013 ts=2022-10-06T00:30:55.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:30:55.60070 ts=2022-10-06T00:30:55.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:30:55.60123 ts=2022-10-06T00:30:55.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:30:55.60176 ts=2022-10-06T00:30:55.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:30:55.60285 ts=2022-10-06T00:30:55.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:30:55.60315 ts=2022-10-06T00:30:55.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:30:55.60369 ts=2022-10-06T00:30:55.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:30:55.60431 ts=2022-10-06T00:30:55.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:30:55.60492 ts=2022-10-06T00:30:55.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:30:55.66122 ts=2022-10-06T00:30:55.661Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:30:55.67153 ts=2022-10-06T00:30:55.671Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:30:55.67207 ts=2022-10-06T00:30:55.672Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:30:55.67263 ts=2022-10-06T00:30:55.672Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:30:55.67281 ts=2022-10-06T00:30:55.672Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:30:55.67414 ts=2022-10-06T00:30:55.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:30:55.67526 ts=2022-10-06T00:30:55.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:30:55.67583 ts=2022-10-06T00:30:55.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:30:55.67885 ts=2022-10-06T00:30:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:30:55.67955 ts=2022-10-06T00:30:55.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:30:55.68023 ts=2022-10-06T00:30:55.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:31:10.58578 ts=2022-10-06T00:31:10.585Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:31:10.58581 ts=2022-10-06T00:31:10.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:31:10.58735 ts=2022-10-06T00:31:10.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:31:10.59890 ts=2022-10-06T00:31:10.598Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:31:10.59973 ts=2022-10-06T00:31:10.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:31:10.65730 ts=2022-10-06T00:31:10.657Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:31:10.66759 ts=2022-10-06T00:31:10.667Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:31:10.66819 ts=2022-10-06T00:31:10.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:31:10.66874 ts=2022-10-06T00:31:10.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:31:10.66890 ts=2022-10-06T00:31:10.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:31:10.67039 ts=2022-10-06T00:31:10.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:31:10.67126 ts=2022-10-06T00:31:10.671Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:31:10.67183 ts=2022-10-06T00:31:10.671Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:31:10.67487 ts=2022-10-06T00:31:10.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:31:10.67564 ts=2022-10-06T00:31:10.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:31:10.67651 ts=2022-10-06T00:31:10.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:31:10.67685 ts=2022-10-06T00:31:10.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:31:10.67796 ts=2022-10-06T00:31:10.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:31:10.67858 ts=2022-10-06T00:31:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:31:10.67872 ts=2022-10-06T00:31:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:31:10.67928 ts=2022-10-06T00:31:10.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:31:10.67986 ts=2022-10-06T00:31:10.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:31:10.68038 ts=2022-10-06T00:31:10.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:31:10.68148 ts=2022-10-06T00:31:10.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:31:10.68284 ts=2022-10-06T00:31:10.682Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:31:25.58497 ts=2022-10-06T00:31:25.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:31:25.58531 ts=2022-10-06T00:31:25.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:31:25.58692 ts=2022-10-06T00:31:25.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:31:25.58778 ts=2022-10-06T00:31:25.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:31:25.58833 ts=2022-10-06T00:31:25.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:31:25.58889 ts=2022-10-06T00:31:25.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:31:25.58940 ts=2022-10-06T00:31:25.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:31:25.60074 ts=2022-10-06T00:31:25.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:31:25.60102 ts=2022-10-06T00:31:25.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:31:25.60213 ts=2022-10-06T00:31:25.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:31:25.60269 ts=2022-10-06T00:31:25.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:31:25.60284 ts=2022-10-06T00:31:25.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:31:25.60339 ts=2022-10-06T00:31:25.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:31:25.60401 ts=2022-10-06T00:31:25.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:31:25.60457 ts=2022-10-06T00:31:25.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:31:25.60511 ts=2022-10-06T00:31:25.605Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:31:25.60526 ts=2022-10-06T00:31:25.605Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:31:25.60665 ts=2022-10-06T00:31:25.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:31:25.60782 ts=2022-10-06T00:31:25.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:31:25.60840 ts=2022-10-06T00:31:25.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:31:25.66540 ts=2022-10-06T00:31:25.665Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:31:25.67539 ts=2022-10-06T00:31:25.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:31:25.67613 ts=2022-10-06T00:31:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:31:25.67684 ts=2022-10-06T00:31:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:31:25.67738 ts=2022-10-06T00:31:25.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:31:40.58481 ts=2022-10-06T00:31:40.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:31:40.58505 ts=2022-10-06T00:31:40.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:31:40.58703 ts=2022-10-06T00:31:40.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:31:40.58710 ts=2022-10-06T00:31:40.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:31:40.58784 ts=2022-10-06T00:31:40.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:31:40.58854 ts=2022-10-06T00:31:40.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:31:40.58915 ts=2022-10-06T00:31:40.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:31:40.60056 ts=2022-10-06T00:31:40.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:31:40.60093 ts=2022-10-06T00:31:40.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:31:40.60210 ts=2022-10-06T00:31:40.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:31:40.60275 ts=2022-10-06T00:31:40.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:31:40.60336 ts=2022-10-06T00:31:40.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:31:40.60402 ts=2022-10-06T00:31:40.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:31:40.61408 ts=2022-10-06T00:31:40.614Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:31:40.61469 ts=2022-10-06T00:31:40.614Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:31:40.61527 ts=2022-10-06T00:31:40.615Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:31:40.61549 ts=2022-10-06T00:31:40.615Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:31:40.61705 ts=2022-10-06T00:31:40.616Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:31:40.61829 ts=2022-10-06T00:31:40.618Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:31:40.61893 ts=2022-10-06T00:31:40.618Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:31:40.67561 ts=2022-10-06T00:31:40.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:31:40.67732 ts=2022-10-06T00:31:40.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:31:40.67811 ts=2022-10-06T00:31:40.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:31:40.67879 ts=2022-10-06T00:31:40.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:31:40.68186 ts=2022-10-06T00:31:40.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:31:55.58526 ts=2022-10-06T00:31:55.585Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:31:55.58577 ts=2022-10-06T00:31:55.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:31:55.58741 ts=2022-10-06T00:31:55.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:31:55.58860 ts=2022-10-06T00:31:55.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:31:55.58911 ts=2022-10-06T00:31:55.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:31:55.58969 ts=2022-10-06T00:31:55.589Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:31:55.59021 ts=2022-10-06T00:31:55.590Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:31:55.60160 ts=2022-10-06T00:31:55.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:31:55.60189 ts=2022-10-06T00:31:55.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:31:55.60305 ts=2022-10-06T00:31:55.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:31:55.60363 ts=2022-10-06T00:31:55.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:31:55.60380 ts=2022-10-06T00:31:55.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:31:55.60437 ts=2022-10-06T00:31:55.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:31:55.60501 ts=2022-10-06T00:31:55.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:31:55.60555 ts=2022-10-06T00:31:55.605Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:31:55.60608 ts=2022-10-06T00:31:55.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:31:55.60626 ts=2022-10-06T00:31:55.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:31:55.60764 ts=2022-10-06T00:31:55.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:31:55.60892 ts=2022-10-06T00:31:55.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:31:55.60954 ts=2022-10-06T00:31:55.609Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:31:55.66714 ts=2022-10-06T00:31:55.667Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:31:55.67743 ts=2022-10-06T00:31:55.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:31:55.67811 ts=2022-10-06T00:31:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:31:55.67882 ts=2022-10-06T00:31:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:31:55.67940 ts=2022-10-06T00:31:55.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:32:10.58485 ts=2022-10-06T00:32:10.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:32:10.58506 ts=2022-10-06T00:32:10.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:32:10.58665 ts=2022-10-06T00:32:10.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:32:10.58747 ts=2022-10-06T00:32:10.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:32:10.58821 ts=2022-10-06T00:32:10.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:32:10.58882 ts=2022-10-06T00:32:10.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:32:10.59159 ts=2022-10-06T00:32:10.591Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:32:10.59247 ts=2022-10-06T00:32:10.592Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:32:10.60380 ts=2022-10-06T00:32:10.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:32:10.60410 ts=2022-10-06T00:32:10.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:32:10.60525 ts=2022-10-06T00:32:10.605Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:32:10.60586 ts=2022-10-06T00:32:10.605Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:32:10.60602 ts=2022-10-06T00:32:10.605Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:32:10.60658 ts=2022-10-06T00:32:10.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:32:10.60712 ts=2022-10-06T00:32:10.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:32:10.60765 ts=2022-10-06T00:32:10.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:32:10.60817 ts=2022-10-06T00:32:10.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:32:10.60880 ts=2022-10-06T00:32:10.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:32:10.61016 ts=2022-10-06T00:32:10.610Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:32:10.61131 ts=2022-10-06T00:32:10.611Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:32:10.61186 ts=2022-10-06T00:32:10.611Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:32:10.67041 ts=2022-10-06T00:32:10.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:32:10.68098 ts=2022-10-06T00:32:10.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:32:10.68167 ts=2022-10-06T00:32:10.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:32:10.68220 ts=2022-10-06T00:32:10.682Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:32:25.58432 ts=2022-10-06T00:32:25.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:32:25.58495 ts=2022-10-06T00:32:25.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:32:25.58700 ts=2022-10-06T00:32:25.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:32:25.58831 ts=2022-10-06T00:32:25.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:32:25.59965 ts=2022-10-06T00:32:25.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:32:25.59996 ts=2022-10-06T00:32:25.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:32:25.60112 ts=2022-10-06T00:32:25.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:32:25.60179 ts=2022-10-06T00:32:25.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:32:25.60201 ts=2022-10-06T00:32:25.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:32:25.60262 ts=2022-10-06T00:32:25.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:32:25.60321 ts=2022-10-06T00:32:25.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:32:25.60375 ts=2022-10-06T00:32:25.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:32:25.60431 ts=2022-10-06T00:32:25.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:32:25.60503 ts=2022-10-06T00:32:25.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:32:25.60657 ts=2022-10-06T00:32:25.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:32:25.60761 ts=2022-10-06T00:32:25.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:32:25.60820 ts=2022-10-06T00:32:25.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:32:25.66523 ts=2022-10-06T00:32:25.665Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:32:25.67543 ts=2022-10-06T00:32:25.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:32:25.67603 ts=2022-10-06T00:32:25.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:32:25.67662 ts=2022-10-06T00:32:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:32:25.67676 ts=2022-10-06T00:32:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:32:25.67825 ts=2022-10-06T00:32:25.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:32:25.67903 ts=2022-10-06T00:32:25.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:32:25.67964 ts=2022-10-06T00:32:25.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:32:40.58474 ts=2022-10-06T00:32:40.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:32:40.58477 ts=2022-10-06T00:32:40.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:32:40.58658 ts=2022-10-06T00:32:40.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:32:40.59771 ts=2022-10-06T00:32:40.597Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:32:40.59802 ts=2022-10-06T00:32:40.597Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:32:40.59913 ts=2022-10-06T00:32:40.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:32:40.59978 ts=2022-10-06T00:32:40.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:32:40.59993 ts=2022-10-06T00:32:40.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:32:40.60056 ts=2022-10-06T00:32:40.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:32:40.60120 ts=2022-10-06T00:32:40.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:32:40.60172 ts=2022-10-06T00:32:40.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:32:40.60232 ts=2022-10-06T00:32:40.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:32:40.60297 ts=2022-10-06T00:32:40.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:32:40.60445 ts=2022-10-06T00:32:40.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:32:40.60551 ts=2022-10-06T00:32:40.605Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:32:40.60609 ts=2022-10-06T00:32:40.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:32:40.66310 ts=2022-10-06T00:32:40.662Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:32:40.67323 ts=2022-10-06T00:32:40.673Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:32:40.67383 ts=2022-10-06T00:32:40.673Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:32:40.67441 ts=2022-10-06T00:32:40.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:32:40.67457 ts=2022-10-06T00:32:40.674Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:32:40.67528 ts=2022-10-06T00:32:40.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:32:40.67597 ts=2022-10-06T00:32:40.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:32:40.67657 ts=2022-10-06T00:32:40.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:32:40.68422 ts=2022-10-06T00:32:40.684Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:32:55.58420 ts=2022-10-06T00:32:55.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:32:55.58458 ts=2022-10-06T00:32:55.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:32:55.58615 ts=2022-10-06T00:32:55.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:32:55.58699 ts=2022-10-06T00:32:55.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:32:55.58830 ts=2022-10-06T00:32:55.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:32:55.59944 ts=2022-10-06T00:32:55.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:32:55.59977 ts=2022-10-06T00:32:55.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:32:55.60093 ts=2022-10-06T00:32:55.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:32:55.60158 ts=2022-10-06T00:32:55.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:32:55.60180 ts=2022-10-06T00:32:55.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:32:55.60246 ts=2022-10-06T00:32:55.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:32:55.60309 ts=2022-10-06T00:32:55.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:32:55.60385 ts=2022-10-06T00:32:55.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:32:55.60448 ts=2022-10-06T00:32:55.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:32:55.60469 ts=2022-10-06T00:32:55.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:32:55.60625 ts=2022-10-06T00:32:55.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:32:55.60747 ts=2022-10-06T00:32:55.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:32:55.60821 ts=2022-10-06T00:32:55.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:32:55.66545 ts=2022-10-06T00:32:55.665Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:32:55.67577 ts=2022-10-06T00:32:55.675Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:32:55.67641 ts=2022-10-06T00:32:55.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:32:55.67715 ts=2022-10-06T00:32:55.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:32:55.67788 ts=2022-10-06T00:32:55.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:32:55.67853 ts=2022-10-06T00:32:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:32:55.68617 ts=2022-10-06T00:32:55.686Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:33:10.58436 ts=2022-10-06T00:33:10.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:33:10.58484 ts=2022-10-06T00:33:10.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:33:10.58712 ts=2022-10-06T00:33:10.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:33:10.59863 ts=2022-10-06T00:33:10.598Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:33:10.59937 ts=2022-10-06T00:33:10.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:33:10.65651 ts=2022-10-06T00:33:10.656Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:33:10.66665 ts=2022-10-06T00:33:10.666Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:33:10.66722 ts=2022-10-06T00:33:10.667Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:33:10.66777 ts=2022-10-06T00:33:10.667Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:33:10.66792 ts=2022-10-06T00:33:10.667Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:33:10.66929 ts=2022-10-06T00:33:10.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:33:10.66997 ts=2022-10-06T00:33:10.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:33:10.67058 ts=2022-10-06T00:33:10.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:33:10.67813 ts=2022-10-06T00:33:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:33:10.67885 ts=2022-10-06T00:33:10.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:33:10.67974 ts=2022-10-06T00:33:10.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:33:10.68003 ts=2022-10-06T00:33:10.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:33:10.68122 ts=2022-10-06T00:33:10.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:33:10.68181 ts=2022-10-06T00:33:10.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:33:10.68203 ts=2022-10-06T00:33:10.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:33:10.68252 ts=2022-10-06T00:33:10.682Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:33:10.68313 ts=2022-10-06T00:33:10.683Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:33:10.68363 ts=2022-10-06T00:33:10.683Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:33:10.68477 ts=2022-10-06T00:33:10.684Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:33:10.68547 ts=2022-10-06T00:33:10.685Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:33:25.58443 ts=2022-10-06T00:33:25.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:33:25.58493 ts=2022-10-06T00:33:25.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:33:25.58642 ts=2022-10-06T00:33:25.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:33:25.58775 ts=2022-10-06T00:33:25.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:33:25.58788 ts=2022-10-06T00:33:25.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:33:25.58856 ts=2022-10-06T00:33:25.588Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:33:25.59047 ts=2022-10-06T00:33:25.590Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:33:25.59096 ts=2022-10-06T00:33:25.590Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:33:25.60231 ts=2022-10-06T00:33:25.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:33:25.60255 ts=2022-10-06T00:33:25.602Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:33:25.60368 ts=2022-10-06T00:33:25.603Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:33:25.60431 ts=2022-10-06T00:33:25.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:33:25.60488 ts=2022-10-06T00:33:25.604Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:33:25.60556 ts=2022-10-06T00:33:25.605Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:33:25.61521 ts=2022-10-06T00:33:25.615Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:33:25.61580 ts=2022-10-06T00:33:25.615Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:33:25.61636 ts=2022-10-06T00:33:25.616Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:33:25.61651 ts=2022-10-06T00:33:25.616Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:33:25.61794 ts=2022-10-06T00:33:25.617Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:33:25.61919 ts=2022-10-06T00:33:25.619Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:33:25.61983 ts=2022-10-06T00:33:25.619Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:33:25.67666 ts=2022-10-06T00:33:25.676Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:33:25.67754 ts=2022-10-06T00:33:25.677Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:33:25.67827 ts=2022-10-06T00:33:25.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:33:25.67889 ts=2022-10-06T00:33:25.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:33:40.58550 ts=2022-10-06T00:33:40.585Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:33:40.58573 ts=2022-10-06T00:33:40.585Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:33:40.58733 ts=2022-10-06T00:33:40.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:33:40.58751 ts=2022-10-06T00:33:40.587Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:33:40.59930 ts=2022-10-06T00:33:40.599Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:33:40.60044 ts=2022-10-06T00:33:40.600Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:33:40.60115 ts=2022-10-06T00:33:40.601Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:33:40.65939 ts=2022-10-06T00:33:40.659Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:33:40.66945 ts=2022-10-06T00:33:40.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:33:40.67003 ts=2022-10-06T00:33:40.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:33:40.67061 ts=2022-10-06T00:33:40.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:33:40.67130 ts=2022-10-06T00:33:40.671Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:33:40.67198 ts=2022-10-06T00:33:40.671Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:33:40.67260 ts=2022-10-06T00:33:40.672Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:33:40.68008 ts=2022-10-06T00:33:40.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:33:40.68102 ts=2022-10-06T00:33:40.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:33:40.68153 ts=2022-10-06T00:33:40.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:33:40.68267 ts=2022-10-06T00:33:40.682Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:33:40.68295 ts=2022-10-06T00:33:40.682Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:33:40.68405 ts=2022-10-06T00:33:40.684Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:33:40.68465 ts=2022-10-06T00:33:40.684Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:33:40.68482 ts=2022-10-06T00:33:40.684Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:33:40.68542 ts=2022-10-06T00:33:40.685Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:33:40.68598 ts=2022-10-06T00:33:40.685Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:33:40.68653 ts=2022-10-06T00:33:40.686Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia
+2022-10-06_00:33:55.58435 ts=2022-10-06T00:33:55.584Z caller=log.go:168 level=debug msg="Querying PostgreSQL version" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:33:55.58457 ts=2022-10-06T00:33:55.584Z caller=log.go:168 level=debug msg="Querying pg_setting view" server=/var/opt/gitlab/postgresql:5432
+2022-10-06_00:33:55.58617 ts=2022-10-06T00:33:55.586Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_queue
+2022-10-06_00:33:55.60679 ts=2022-10-06T00:33:55.606Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum
+2022-10-06_00:33:55.60738 ts=2022-10-06T00:33:55.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_slow
+2022-10-06_00:33:55.60793 ts=2022-10-06T00:33:55.607Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_postmaster
+2022-10-06_00:33:55.60872 ts=2022-10-06T00:33:55.608Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database
+2022-10-06_00:33:55.60980 ts=2022-10-06T00:33:55.609Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_database_conflicts
+2022-10-06_00:33:55.61094 ts=2022-10-06T00:33:55.610Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_locks
+2022-10-06_00:33:55.61155 ts=2022-10-06T00:33:55.611Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_total_relation_size
+2022-10-06_00:33:55.66842 ts=2022-10-06T00:33:55.668Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_replication
+2022-10-06_00:33:55.66924 ts=2022-10-06T00:33:55.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_autovacuum_active
+2022-10-06_00:33:55.66997 ts=2022-10-06T00:33:55.669Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions
+2022-10-06_00:33:55.67058 ts=2022-10-06T00:33:55.670Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity_marginalia_sampler
+2022-10-06_00:33:55.67815 ts=2022-10-06T00:33:55.678Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_activity
+2022-10-06_00:33:55.67908 ts=2022-10-06T00:33:55.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication
+2022-10-06_00:33:55.67922 ts=2022-10-06T00:33:55.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_oldest_blocked
+2022-10-06_00:33:55.67982 ts=2022-10-06T00:33:55.679Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum
+2022-10-06_00:33:55.68037 ts=2022-10-06T00:33:55.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_blocked
+2022-10-06_00:33:55.68082 ts=2022-10-06T00:33:55.680Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_bgwriter
+2022-10-06_00:33:55.68199 ts=2022-10-06T00:33:55.681Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_replication_slots
+2022-10-06_00:33:55.68225 ts=2022-10-06T00:33:55.682Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stat_archiver
+2022-10-06_00:33:55.68336 ts=2022-10-06T00:33:55.683Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_vacuum_analyze
+2022-10-06_00:33:55.68393 ts=2022-10-06T00:33:55.683Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_stuck_idle_in_transaction
+2022-10-06_00:33:55.68449 ts=2022-10-06T00:33:55.684Z caller=log.go:168 level=debug msg="Querying namespace" namespace=pg_long_running_transactions_marginalia

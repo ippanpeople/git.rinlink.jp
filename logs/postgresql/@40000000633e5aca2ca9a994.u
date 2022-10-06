@@ -1,0 +1,44 @@
+2022-10-06_00:51:17.37260 LOG:  starting PostgreSQL 13.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2022-10-06_00:51:17.37302 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2022-10-06_00:51:17.37581 LOG:  database system was shut down at 2022-10-06 00:49:13 GMT
+2022-10-06_00:51:17.37820 LOG:  database system is ready to accept connections
+2022-10-06_00:51:19.18824 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-06_00:51:19.18834 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-06_00:51:19.18834 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-06_00:51:19.24829 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-06_00:51:19.24831 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-06_00:51:19.24832 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-06_00:51:19.30234 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-06_00:51:19.30236 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-06_00:51:19.30237 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-06_04:33:08.62264 received TERM from runit, sending INT instead to force quit connections
+2022-10-06_04:33:08.62342 LOG:  received fast shutdown request
+2022-10-06_04:33:08.62470 LOG:  aborting any active transactions
+2022-10-06_04:33:08.62761 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62762 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62763 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62763 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62763 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62763 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62764 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62764 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62764 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62764 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62765 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62765 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62765 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62765 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62766 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62766 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62952 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62953 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62954 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62954 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62954 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62954 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.62955 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.63069 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.63070 FATAL:  terminating connection due to administrator command
+2022-10-06_04:33:08.63099 LOG:  background worker "logical replication launcher" (PID 334) exited with exit code 1
+2022-10-06_04:33:08.63183 LOG:  shutting down
+2022-10-06_04:33:08.63707 LOG:  database system is shut down

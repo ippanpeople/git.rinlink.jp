@@ -1,0 +1,47 @@
+2022-10-06_04:39:28.42940 276:C 06 Oct 2022 13:39:28.428 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2022-10-06_04:39:28.42949 276:C 06 Oct 2022 13:39:28.428 # Redis version=6.2.7, bits=64, commit=e6f67092, modified=1, pid=276, just started
+2022-10-06_04:39:28.42949 276:C 06 Oct 2022 13:39:28.428 # Configuration loaded
+2022-10-06_04:39:28.42949 276:M 06 Oct 2022 13:39:28.428 * monotonic clock: POSIX clock_gettime
+2022-10-06_04:39:28.42950 276:M 06 Oct 2022 13:39:28.429 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+2022-10-06_04:39:28.42950                 _._                                                  
+2022-10-06_04:39:28.42950            _.-``__ ''-._                                             
+2022-10-06_04:39:28.42950       _.-``    `.  `_.  ''-._           Redis 6.2.7 (e6f67092/1) 64 bit
+2022-10-06_04:39:28.42951   .-`` .-```.  ```\/    _.,_ ''-._                                  
+2022-10-06_04:39:28.42951  (    '      ,       .-`  | `,    )     Running in standalone mode
+2022-10-06_04:39:28.42951  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2022-10-06_04:39:28.42951  |    `-._   `._    /     _.-'    |     PID: 276
+2022-10-06_04:39:28.42951   `-._    `-._  `-./  _.-'    _.-'                                   
+2022-10-06_04:39:28.42952  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2022-10-06_04:39:28.42953  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+2022-10-06_04:39:28.42954   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2022-10-06_04:39:28.42954  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2022-10-06_04:39:28.42954  |    `-._`-._        _.-'_.-'    |                                  
+2022-10-06_04:39:28.42954   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2022-10-06_04:39:28.42954       `-._    `-.__.-'    _.-'                                       
+2022-10-06_04:39:28.42955           `-._        _.-'                                           
+2022-10-06_04:39:28.42955               `-.__.-'                                               
+2022-10-06_04:39:28.42955 
+2022-10-06_04:39:28.42955 276:M 06 Oct 2022 13:39:28.429 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2022-10-06_04:39:28.42956 276:M 06 Oct 2022 13:39:28.429 # Server initialized
+2022-10-06_04:39:28.42956 276:M 06 Oct 2022 13:39:28.429 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2022-10-06_04:39:28.42957 276:M 06 Oct 2022 13:39:28.429 * Loading RDB produced by version 6.2.7
+2022-10-06_04:39:28.42958 276:M 06 Oct 2022 13:39:28.429 * RDB age 39 seconds
+2022-10-06_04:39:28.42959 276:M 06 Oct 2022 13:39:28.429 * RDB memory usage when created 7.63 Mb
+2022-10-06_04:39:28.43267 276:M 06 Oct 2022 13:39:28.432 # Done loading RDB, keys loaded: 473, keys expired: 1.
+2022-10-06_04:39:28.43269 276:M 06 Oct 2022 13:39:28.432 * DB loaded from disk: 0.003 seconds
+2022-10-06_04:39:28.43269 276:M 06 Oct 2022 13:39:28.432 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2022-10-06_04:44:29.04937 276:M 06 Oct 2022 13:44:29.049 * 10 changes in 300 seconds. Saving...
+2022-10-06_04:44:29.05031 276:M 06 Oct 2022 13:44:29.050 * Background saving started by pid 1294
+2022-10-06_04:44:29.05637 1294:C 06 Oct 2022 13:44:29.056 * DB saved on disk
+2022-10-06_04:44:29.05682 1294:C 06 Oct 2022 13:44:29.056 * RDB: 4 MB of memory used by copy-on-write
+2022-10-06_04:44:29.15054 276:M 06 Oct 2022 13:44:29.150 * Background saving terminated with success
+2022-10-06_04:49:30.03445 276:M 06 Oct 2022 13:49:30.034 * 10 changes in 300 seconds. Saving...
+2022-10-06_04:49:30.03486 276:M 06 Oct 2022 13:49:30.034 * Background saving started by pid 1832
+2022-10-06_04:49:30.04146 1832:C 06 Oct 2022 13:49:30.041 * DB saved on disk
+2022-10-06_04:49:30.04192 1832:C 06 Oct 2022 13:49:30.041 * RDB: 3 MB of memory used by copy-on-write
+2022-10-06_04:49:30.13573 276:M 06 Oct 2022 13:49:30.135 * Background saving terminated with success
+2022-10-06_04:54:31.00333 276:M 06 Oct 2022 13:54:31.002 * 10 changes in 300 seconds. Saving...
+2022-10-06_04:54:31.00354 276:M 06 Oct 2022 13:54:31.003 * Background saving started by pid 2358
+2022-10-06_04:54:31.01053 2358:C 06 Oct 2022 13:54:31.010 * DB saved on disk
+2022-10-06_04:54:31.01097 2358:C 06 Oct 2022 13:54:31.010 * RDB: 1 MB of memory used by copy-on-write
+2022-10-06_04:54:31.10448 276:M 06 Oct 2022 13:54:31.104 * Background saving terminated with success

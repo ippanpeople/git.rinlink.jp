@@ -1,0 +1,46 @@
+configFile: open config.toml: no such file or directory
+{"build_time":"20221004.143500","level":"info","msg":"Starting","time":"2022-10-06T00:25:40Z","version":"v15.4.2-ee"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2022-10-06T00:25:40Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2022-10-06T00:25:40Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2022-10-06T00:25:40Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2022-10-06T00:25:40Z","uri":""}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2022-10-06T00:25:40Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2022-10-06T00:25:50Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2022-10-06T00:26:00Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2022-10-06T00:26:10Z","uri":""}
+{"correlation_id":"01GENAZ4P2ZCCP3GZEWMV0Z9DC","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2022-10-06T00:26:16Z","uri":"/help"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01GENAZ4P2ZCCP3GZEWMV0Z9DC","duration_ms":0,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":502,"system":"http","time":"2022-10-06T00:26:16Z","ttfb_ms":0,"uri":"/help","user_agent":"curl/7.79.1-DEV","written_bytes":3039}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2022-10-06T00:26:20Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory","level":"error","method":"GET","msg":"","time":"2022-10-06T00:26:30Z","uri":""}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2022-10-06T00:26:41Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2022-10-06T00:26:41Z"}
+{"level":"info","msg":"shutdown initiated","shutdown_timeout_s":0,"signal":"terminated","time":"2022-10-06T00:27:12Z"}
+{"level":"info","msg":"keywatcher: shutting down","time":"2022-10-06T00:27:12Z"}
+{"error":"context deadline exceeded","level":"fatal","msg":"shutting down","time":"2022-10-06T00:27:12Z"}
+{"build_time":"20221004.143500","level":"info","msg":"Starting","time":"2022-10-06T00:27:12Z","version":"v15.4.2-ee"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2022-10-06T00:27:12Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2022-10-06T00:27:12Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2022-10-06T00:27:12Z"}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2022-10-06T00:27:12Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01GENB0ZBAT0N9W629CTH5ZD2F","duration_ms":887,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2022-10-06T00:27:17Z","ttfb_ms":887,"uri":"/help","user_agent":"curl/7.79.1-DEV","written_bytes":70847}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2022-10-06T00:28:13Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2022-10-06T00:28:13Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01GENB2TW6MSVQTFEAZ7ECA0RE","duration_ms":723,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2022-10-06T00:28:18Z","ttfb_ms":723,"uri":"/help","user_agent":"curl/7.79.1-DEV","written_bytes":70847}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2022-10-06T00:29:14Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2022-10-06T00:29:14Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01GENB4P7SXKX3H7GBHA96Z1Y6","duration_ms":148,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2022-10-06T00:29:18Z","ttfb_ms":148,"uri":"/help","user_agent":"curl/7.79.1-DEV","written_bytes":70847}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2022-10-06T00:30:15Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2022-10-06T00:30:15Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01GENB6H1DKR0VYYYJ3MYSE27J","duration_ms":743,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2022-10-06T00:30:19Z","ttfb_ms":743,"uri":"/help","user_agent":"curl/7.79.1-DEV","written_bytes":70847}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2022-10-06T00:31:16Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2022-10-06T00:31:16Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01GENB8CDH6KKR3X7K5GG9B02W","duration_ms":742,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2022-10-06T00:31:20Z","ttfb_ms":742,"uri":"/help","user_agent":"curl/7.79.1-DEV","written_bytes":70847}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2022-10-06T00:32:17Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2022-10-06T00:32:17Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01GENBA7SR8P3WJE6WKA7J52EH","duration_ms":148,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2022-10-06T00:32:20Z","ttfb_ms":148,"uri":"/help","user_agent":"curl/7.79.1-DEV","written_bytes":70847}
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2022-10-06T00:33:18Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2022-10-06T00:33:18Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01GENBC2KBYYVP304GNDJJ1H0M","duration_ms":155,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2022-10-06T00:33:20Z","ttfb_ms":155,"uri":"/help","user_agent":"curl/7.79.1-DEV","written_bytes":70847}
+{"level":"info","msg":"shutdown initiated","shutdown_timeout_s":0,"signal":"terminated","time":"2022-10-06T00:34:08Z"}
+{"level":"info","msg":"keywatcher: shutting down","time":"2022-10-06T00:34:08Z"}
+{"error":"context deadline exceeded","level":"fatal","msg":"shutting down","time":"2022-10-06T00:34:08Z"}

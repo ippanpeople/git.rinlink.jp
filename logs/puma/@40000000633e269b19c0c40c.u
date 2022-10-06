@@ -1,0 +1,15 @@
+2022-10-06_00:43:34.51208 {"timestamp":"2022-10-06T00:43:33.748Z","pid":517,"message":"Puma starting in cluster mode..."}
+2022-10-06_00:43:34.51216 {"timestamp":"2022-10-06T00:43:33.748Z","pid":517,"message":"* Puma version: 5.6.5 (ruby 2.7.5-p203) (\"Birdie's Version\")"}
+2022-10-06_00:43:34.51217 {"timestamp":"2022-10-06T00:43:33.748Z","pid":517,"message":"*  Min threads: 4"}
+2022-10-06_00:43:34.51217 {"timestamp":"2022-10-06T00:43:33.748Z","pid":517,"message":"*  Max threads: 4"}
+2022-10-06_00:43:34.51217 {"timestamp":"2022-10-06T00:43:33.748Z","pid":517,"message":"*  Environment: production"}
+2022-10-06_00:43:34.51217 {"timestamp":"2022-10-06T00:43:33.748Z","pid":517,"message":"*   Master PID: 517"}
+2022-10-06_00:43:34.51218 {"timestamp":"2022-10-06T00:43:33.748Z","pid":517,"message":"*      Workers: 4"}
+2022-10-06_00:43:34.51218 {"timestamp":"2022-10-06T00:43:33.748Z","pid":517,"message":"*     Restarts: (✔) hot (✖) phased"}
+2022-10-06_00:43:34.51218 {"timestamp":"2022-10-06T00:43:33.748Z","pid":517,"message":"* Preloading application"}
+2022-10-06_00:44:37.84840 {"timestamp":"2022-10-06T00:44:37.845Z","pid":517,"message":"* Listening on unix:///var/opt/gitlab/gitlab-rails/sockets/gitlab.socket"}
+2022-10-06_00:44:37.84850 {"timestamp":"2022-10-06T00:44:37.845Z","pid":517,"message":"* Listening on http://127.0.0.1:8080"}
+2022-10-06_00:44:37.84850 {"timestamp":"2022-10-06T00:44:37.845Z","pid":517,"message":"! WARNING: Detected 1 Thread(s) started in app boot:"}
+2022-10-06_00:44:37.84851 {"timestamp":"2022-10-06T00:44:37.845Z","pid":517,"message":"! #\u003cThread:0x00007f3f8e0bbad8 /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-timeout-0.6.0/lib/rack/timeout/support/scheduler.rb:73 sleep\u003e - /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/rack-timeout-0.6.0/lib/rack/timeout/support/scheduler.rb:91:in `sleep'"}
+2022-10-06_00:44:37.84851 {"timestamp":"2022-10-06T00:44:37.846Z","pid":517,"message":"Use Ctrl-C to stop"}
+2022-10-06_00:49:14.79072 Received TERM from runit, sending to process group (-PID)

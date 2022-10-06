@@ -1,0 +1,39 @@
+2022-10-06_04:33:56.66230 276:C 06 Oct 2022 13:33:56.661 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2022-10-06_04:33:56.66238 276:C 06 Oct 2022 13:33:56.661 # Redis version=6.2.7, bits=64, commit=e6f67092, modified=1, pid=276, just started
+2022-10-06_04:33:56.66238 276:C 06 Oct 2022 13:33:56.661 # Configuration loaded
+2022-10-06_04:33:56.66238 276:M 06 Oct 2022 13:33:56.661 * monotonic clock: POSIX clock_gettime
+2022-10-06_04:33:56.66239 276:M 06 Oct 2022 13:33:56.662 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+2022-10-06_04:33:56.66240                 _._                                                  
+2022-10-06_04:33:56.66241            _.-``__ ''-._                                             
+2022-10-06_04:33:56.66241       _.-``    `.  `_.  ''-._           Redis 6.2.7 (e6f67092/1) 64 bit
+2022-10-06_04:33:56.66241   .-`` .-```.  ```\/    _.,_ ''-._                                  
+2022-10-06_04:33:56.66241  (    '      ,       .-`  | `,    )     Running in standalone mode
+2022-10-06_04:33:56.66241  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2022-10-06_04:33:56.66242  |    `-._   `._    /     _.-'    |     PID: 276
+2022-10-06_04:33:56.66242   `-._    `-._  `-./  _.-'    _.-'                                   
+2022-10-06_04:33:56.66242  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2022-10-06_04:33:56.66242  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+2022-10-06_04:33:56.66243   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2022-10-06_04:33:56.66243  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2022-10-06_04:33:56.66243  |    `-._`-._        _.-'_.-'    |                                  
+2022-10-06_04:33:56.66243   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2022-10-06_04:33:56.66243       `-._    `-.__.-'    _.-'                                       
+2022-10-06_04:33:56.66244           `-._        _.-'                                           
+2022-10-06_04:33:56.66245               `-.__.-'                                               
+2022-10-06_04:33:56.66245 
+2022-10-06_04:33:56.66246 276:M 06 Oct 2022 13:33:56.662 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2022-10-06_04:33:56.66246 276:M 06 Oct 2022 13:33:56.662 # Server initialized
+2022-10-06_04:33:56.66246 276:M 06 Oct 2022 13:33:56.662 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2022-10-06_04:33:56.66330 276:M 06 Oct 2022 13:33:56.662 * Loading RDB produced by version 6.2.7
+2022-10-06_04:33:56.66330 276:M 06 Oct 2022 13:33:56.662 * RDB age 47 seconds
+2022-10-06_04:33:56.66330 276:M 06 Oct 2022 13:33:56.662 * RDB memory usage when created 8.02 Mb
+2022-10-06_04:33:56.66626 276:M 06 Oct 2022 13:33:56.666 # Done loading RDB, keys loaded: 470, keys expired: 2.
+2022-10-06_04:33:56.66629 276:M 06 Oct 2022 13:33:56.666 * DB loaded from disk: 0.004 seconds
+2022-10-06_04:33:56.66629 276:M 06 Oct 2022 13:33:56.666 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2022-10-06_04:38:49.61601 276:signal-handler (1665031129) Received SIGTERM scheduling shutdown...
+2022-10-06_04:38:49.69017 276:M 06 Oct 2022 13:38:49.690 # User requested shutdown...
+2022-10-06_04:38:49.69018 276:M 06 Oct 2022 13:38:49.690 * Saving the final RDB snapshot before exiting.
+2022-10-06_04:38:49.69577 276:M 06 Oct 2022 13:38:49.695 * DB saved on disk
+2022-10-06_04:38:49.69578 276:M 06 Oct 2022 13:38:49.695 * Removing the pid file.
+2022-10-06_04:38:49.69580 276:M 06 Oct 2022 13:38:49.695 * Removing the unix socket file.
+2022-10-06_04:38:49.69581 276:M 06 Oct 2022 13:38:49.695 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,27 @@
+version: 0.1
+log:
+  level: info
+  formatter: text
+  fields:
+    service: registry
+    environment: production
+storage: {"filesystem":{"rootdirectory":"/var/opt/gitlab/gitlab-rails/shared/registry"},"cache":{"blobdescriptor":"inmemory"},"delete":{"enabled":true}}
+http:
+  addr: 127.0.0.1:5000
+  secret: "c98a68ebe1ea12436663378fad550946e38f1a83e0013badc86a66ad5c045b222432e64cc415d21cbc525974f11934f2cde67a7fd35482ac9881b46f01c5986a"
+  headers:
+    X-Content-Type-Options: [nosniff]
+health:
+  storagedriver:
+    enabled: true
+    interval: 10s
+    threshold: 3
+auth:
+  token:
+    realm: https://git.rinlink.jp/jwt/auth
+    service: container_registry
+    issuer: omnibus-gitlab-issuer
+    rootcertbundle: /var/opt/gitlab/registry/gitlab-registry.crt
+    autoredirect: false
+validation:
+  disabled: true

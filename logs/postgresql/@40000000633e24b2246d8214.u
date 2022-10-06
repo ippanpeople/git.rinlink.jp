@@ -1,0 +1,68 @@
+2022-10-06_00:23:59.12936 LOG:  starting PostgreSQL 13.6 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0, 64-bit
+2022-10-06_00:23:59.12981 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2022-10-06_00:23:59.13238 LOG:  database system was shut down at 2022-10-06 00:23:57 GMT
+2022-10-06_00:23:59.13421 LOG:  database system is ready to accept connections
+2022-10-06_00:24:02.22460 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-06_00:24:02.22468 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-06_00:24:02.22468 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-06_00:24:02.31104 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-06_00:24:02.31105 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-06_00:24:02.31105 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-06_00:24:02.40116 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-06_00:24:02.40119 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-06_00:24:02.40119 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-06_00:24:02.68430 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-06_00:24:02.68433 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-06_00:24:02.68433 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-06_00:24:02.83146 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2022-10-06_00:24:02.83149 FATAL:  Peer authentication failed for user "gitlab"
+2022-10-06_00:24:02.83149 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2022-10-06_00:24:30.93999 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-10-06_00:24:30.94001 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'audit_events')) LIMIT 1
+2022-10-06_00:24:30.94188 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-10-06_00:24:30.94189 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'web_hook_logs')) LIMIT 1
+2022-10-06_00:24:30.94353 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-10-06_00:24:30.94354 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'loose_foreign_keys_deleted_records')) LIMIT 1
+2022-10-06_00:24:30.94505 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-10-06_00:24:30.94506 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'batched_background_migration_job_transition_logs')) LIMIT 1
+2022-10-06_00:24:30.94658 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-10-06_00:24:30.94659 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'incident_management_pending_alert_escalations')) LIMIT 1
+2022-10-06_00:24:30.94815 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-10-06_00:24:30.94816 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'incident_management_pending_issue_escalations')) LIMIT 1
+2022-10-06_00:24:30.94968 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-10-06_00:24:30.94969 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'security_findings')) LIMIT 1
+2022-10-06_00:24:30.95123 ERROR:  relation "postgres_partitioned_tables" does not exist at character 85
+2022-10-06_00:24:30.95123 STATEMENT:  /*application:web,db_config_name:main*/ SELECT "postgres_partitioned_tables".* FROM "postgres_partitioned_tables" WHERE (identifier = concat(current_schema(), '.', 'verification_codes')) LIMIT 1
+2022-10-06_00:34:10.13128 received TERM from runit, sending INT instead to force quit connections
+2022-10-06_00:34:10.13214 LOG:  received fast shutdown request
+2022-10-06_00:34:10.13342 LOG:  aborting any active transactions
+2022-10-06_00:34:10.13844 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13845 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13845 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13845 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13846 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13846 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13846 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13847 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13847 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13847 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13847 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13848 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13848 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13848 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13848 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13849 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13849 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13849 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13851 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13851 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13851 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13852 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13852 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13852 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13919 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.13920 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.14004 LOG:  background worker "logical replication launcher" (PID 594) exited with exit code 1
+2022-10-06_00:34:10.14005 FATAL:  terminating connection due to administrator command
+2022-10-06_00:34:10.14126 LOG:  shutting down
+2022-10-06_00:34:10.14654 LOG:  database system is shut down

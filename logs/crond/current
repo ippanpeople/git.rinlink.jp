@@ -1,0 +1,13 @@
+2022-10-06_00:25:21.54450 time="2022-10-06T00:25:21Z" level=info msg="starting go-crond version 21.5.0 (d5c7f3b; go1.17.13) "
+2022-10-06_00:25:21.54465 time="2022-10-06T00:25:21Z" level=info msg="{\"ShowVersion\":false,\"ShowOnlyVersion\":false,\"ShowHelp\":false,\"Cron\":{\"DefaultUser\":\"root\",\"IncludeCronD\":[\"/var/opt/gitlab/crond\"],\"Auto\":false,\"RunParts\":null,\"RunParts1m\":null,\"RunParts15m\":null,\"RunPartsHourly\":null,\"RunPartsDaily\":null,\"RunPartsWeekly\":null,\"RunPartsMonthly\":null,\"AllowUnprivileged\":false,\"WorkDir\":\"/\",\"EnableUserSwitching\":false},\"Log\":{\"Verbose\":false,\"Json\":false},\"Server\":{\"Bind\":\"\",\"Metrics\":false}}"
+2022-10-06_00:25:21.54506 time="2022-10-06T00:25:21Z" level=info msg="start runner with 0 jobs\n"
+2022-10-06_00:27:14.90348 time="2022-10-06T00:27:14Z" level=info msg="got signal: terminated"
+2022-10-06_00:27:14.90358 time="2022-10-06T00:27:14Z" level=info msg="stop runner"
+2022-10-06_00:27:14.90359 time="2022-10-06T00:27:14Z" level=info msg=terminated
+2022-10-06_00:27:14.91273 time="2022-10-06T00:27:14Z" level=info msg="starting go-crond version 21.5.0 (d5c7f3b; go1.17.13) "
+2022-10-06_00:27:14.91274 time="2022-10-06T00:27:14Z" level=info msg="{\"ShowVersion\":false,\"ShowOnlyVersion\":false,\"ShowHelp\":false,\"Cron\":{\"DefaultUser\":\"root\",\"IncludeCronD\":[\"/var/opt/gitlab/crond\"],\"Auto\":false,\"RunParts\":null,\"RunParts1m\":null,\"RunParts15m\":null,\"RunPartsHourly\":null,\"RunPartsDaily\":null,\"RunPartsWeekly\":null,\"RunPartsMonthly\":null,\"AllowUnprivileged\":false,\"WorkDir\":\"/\",\"EnableUserSwitching\":false},\"Log\":{\"Verbose\":false,\"Json\":false},\"Server\":{\"Bind\":\"\",\"Metrics\":false}}"
+2022-10-06_00:27:14.91275 time="2022-10-06T00:27:14Z" level=info msg="cronjob added" command="/opt/gitlab/bin/gitlab-ctl renew-le-certs" spec="27 0 */4 * *" user=root
+2022-10-06_00:27:14.91296 time="2022-10-06T00:27:14Z" level=info msg="start runner with 1 jobs\n"
+2022-10-06_00:34:06.33288 time="2022-10-06T00:34:06Z" level=info msg="got signal: terminated"
+2022-10-06_00:34:06.33289 time="2022-10-06T00:34:06Z" level=info msg="stop runner"
+2022-10-06_00:34:06.33290 time="2022-10-06T00:34:06Z" level=info msg=terminated

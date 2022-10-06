@@ -3066,3 +3066,547 @@ Completed 200 OK in 119ms (Views: 114.1ms | ActiveRecord: 1.3ms | Elasticsearch:
 Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:55:12 +0900
 Processing by MetricsController#index as HTML
 Completed 200 OK in 43ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:55:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:55:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:55:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 13:56:06 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 114.3ms | Allocations: 86059)
+Completed 200 OK in 119ms (Views: 111.0ms | ActiveRecord: 3.8ms | Elasticsearch: 0.0ms | Allocations: 87718)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:56:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:56:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:56:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:56:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 13:57:06 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 106.4ms | Allocations: 85250)
+Completed 200 OK in 111ms (Views: 105.6ms | ActiveRecord: 1.3ms | Elasticsearch: 0.0ms | Allocations: 86909)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:57:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:57:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 85ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 932)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:57:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:57:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 13:58:06 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 110.0ms | Allocations: 84663)
+Completed 200 OK in 115ms (Views: 105.4ms | ActiveRecord: 5.2ms | Elasticsearch: 0.0ms | Allocations: 86524)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:58:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:58:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:58:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:58:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 13:59:06 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 107.7ms | Allocations: 84325)
+Completed 200 OK in 113ms (Views: 106.9ms | ActiveRecord: 1.3ms | Elasticsearch: 0.0ms | Allocations: 86185)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:59:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:59:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:59:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 13:59:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:00:07 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 105.8ms | Allocations: 84696)
+Completed 200 OK in 110ms (Views: 104.6ms | ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 86557)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:00:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:00:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 931)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:00:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:00:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:01:07 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 109.8ms | Allocations: 85244)
+Completed 200 OK in 114ms (Views: 108.9ms | ActiveRecord: 1.5ms | Elasticsearch: 0.0ms | Allocations: 86903)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:01:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:01:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:01:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:01:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:02:07 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 107.7ms | Allocations: 85060)
+Completed 200 OK in 113ms (Views: 106.7ms | ActiveRecord: 1.5ms | Elasticsearch: 0.0ms | Allocations: 86920)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:02:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:02:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 46ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:02:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:02:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:03:07 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 109.8ms | Allocations: 85785)
+Completed 200 OK in 114ms (Views: 108.9ms | ActiveRecord: 1.4ms | Elasticsearch: 0.0ms | Allocations: 87446)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:03:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:03:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:03:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:03:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:04:08 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 105.8ms | Allocations: 84663)
+Completed 200 OK in 110ms (Views: 104.7ms | ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 86524)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:04:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:04:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:04:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:04:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 45ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:05:08 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 116.7ms | Allocations: 85804)
+Completed 200 OK in 122ms (Views: 112.6ms | ActiveRecord: 4.6ms | Elasticsearch: 0.0ms | Allocations: 87669)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:05:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:05:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:05:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:05:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:06:08 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 110.8ms | Allocations: 84659)
+Completed 200 OK in 116ms (Views: 109.4ms | ActiveRecord: 1.9ms | Elasticsearch: 0.0ms | Allocations: 86519)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:06:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:06:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:06:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:06:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started POST "/users/sign_in" for 118.21.158.208 at 2022-10-06 14:07:07 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"root", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Redirected to http://git.rinlink.jp/
+Completed 302 Found in 347ms (ActiveRecord: 39.7ms | Elasticsearch: 0.0ms | Allocations: 67071)
+Started GET "/" for 118.21.158.208 at 2022-10-06 14:07:08 +0900
+Processing by RootController#index as HTML
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:07:08 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/dashboard.html.haml (Duration: 306.5ms | Allocations: 163069)
+Completed 200 OK in 434ms (Views: 274.1ms | ActiveRecord: 83.8ms | Elasticsearch: 0.0ms | Allocations: 193140)
+  Rendered layout layouts/help.html.haml (Duration: 111.0ms | Allocations: 83471)
+Completed 200 OK in 115ms (Views: 110.2ms | ActiveRecord: 1.4ms | Elasticsearch: 0.0ms | Allocations: 85130)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:07:09 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1851)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:07:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 44ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 931)
+Started GET "/admin" for 118.21.158.208 at 2022-10-06 14:07:14 +0900
+Processing by Admin::DashboardController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 504.2ms | Allocations: 347996)
+Completed 200 OK in 617ms (Views: 347.8ms | ActiveRecord: 192.0ms | Elasticsearch: 0.0ms | Allocations: 385265)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:07:15 +0900
+Started GET "/api/v4/application/statistics" for 118.21.158.208 at 2022-10-06 14:07:15 +0900
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 162)
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 11ms (Views: 0.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 5309)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:07:15 +0900
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 93)
+Processing by PwaController#manifest as JSON
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:07:15 +0900
+Completed 200 OK in 11ms (Views: 5.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 4981)
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1200)
+Started GET "/admin/users" for 118.21.158.208 at 2022-10-06 14:07:19 +0900
+Processing by Admin::UsersController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 267.7ms | Allocations: 192903)
+Completed 200 OK in 321ms (Views: 245.6ms | ActiveRecord: 49.3ms | Elasticsearch: 0.0ms | Allocations: 204992)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:07:20 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1284)
+Started POST "/api/graphql" for 118.21.158.208 at 2022-10-06 14:07:20 +0900
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by GraphqlController#execute as */*
+  Parameters: {"_json"=>[{"operationName"=>"getUsersGroupCounts", "variables"=>"[FILTERED]", "query"=>"query getUsersGroupCounts($usernames: [String!]) {\n  users(usernames: $usernames) {\n    nodes {\n      id\n      groupCount\n      __typename\n    }\n    __typename\n  }\n}\n"}], "graphql"=>{"_json"=>[{"operationName"=>"getUsersGroupCounts", "variables"=>"[FILTERED]", "query"=>"query getUsersGroupCounts($usernames: [String!]) {\n  users(usernames: $usernames) {\n    nodes {\n      id\n      groupCount\n      __typename\n    }\n    __typename\n  }\n}\n"}]}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:07:20 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 2179)
+Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 6.1ms | Elasticsearch: 0.0ms | Allocations: 26771)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:07:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 85ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 933)
+Started GET "/admin/users/lin/edit" for 118.21.158.208 at 2022-10-06 14:07:28 +0900
+Processing by Admin::UsersController#edit as HTML
+  Parameters: {"id"=>"lin"}
+  Rendered layout layouts/admin.html.haml (Duration: 329.8ms | Allocations: 312981)
+Completed 200 OK in 404ms (Views: 320.7ms | ActiveRecord: 33.8ms | Elasticsearch: 0.0ms | Allocations: 327132)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:07:29 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 2763)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:07:29 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1850)
+Started PATCH "/admin/users/lin" for 118.21.158.208 at 2022-10-06 14:07:35 +0900
+Processing by Admin::UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"lin", "username"=>"lin", "email"=>"lin@rinrin.net", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "projects_limit"=>"100000", "can_create_group"=>"1", "access_level"=>"admin", "external"=>"0", "credit_card_validation_attributes"=>{"credit_card_validated_at"=>"0"}, "namespace_attributes"=>{"id"=>"4", "shared_runners_minutes_limit"=>""}, "skype"=>"", "linkedin"=>"", "twitter"=>"", "website_url"=>"", "note"=>"[FILTERED]"}, "id"=>"lin"}
+Redirected to http://git.rinlink.jp/admin/users/lin
+Completed 302 Found in 50ms (ActiveRecord: 8.1ms | Elasticsearch: 0.0ms | Allocations: 18665)
+Started GET "/admin/users/lin" for 118.21.158.208 at 2022-10-06 14:07:35 +0900
+Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"lin"}
+  Rendered layout layouts/admin.html.haml (Duration: 244.7ms | Allocations: 163437)
+Completed 200 OK in 268ms (Views: 215.0ms | ActiveRecord: 32.7ms | Elasticsearch: 0.0ms | Allocations: 171132)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:07:36 +0900
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:07:36 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1850)
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 2763)
+Started GET "/admin/users" for 118.21.158.208 at 2022-10-06 14:07:38 +0900
+Processing by Admin::UsersController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 116.7ms | Allocations: 56297)
+Completed 200 OK in 157ms (Views: 106.5ms | ActiveRecord: 32.5ms | Elasticsearch: 0.0ms | Allocations: 62117)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:07:39 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1277)
+Started POST "/api/graphql" for 118.21.158.208 at 2022-10-06 14:07:39 +0900
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 162)
+Processing by GraphqlController#execute as */*
+  Parameters: {"_json"=>[{"operationName"=>"getUsersGroupCounts", "variables"=>"[FILTERED]", "query"=>"query getUsersGroupCounts($usernames: [String!]) {\n  users(usernames: $usernames) {\n    nodes {\n      id\n      groupCount\n      __typename\n    }\n    __typename\n  }\n}\n"}], "graphql"=>{"_json"=>[{"operationName"=>"getUsersGroupCounts", "variables"=>"[FILTERED]", "query"=>"query getUsersGroupCounts($usernames: [String!]) {\n  users(usernames: $usernames) {\n    nodes {\n      id\n      groupCount\n      __typename\n    }\n    __typename\n  }\n}\n"}]}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Completed 200 OK in 73ms (Views: 0.3ms | ActiveRecord: 6.5ms | Elasticsearch: 0.0ms | Allocations: 27226)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:07:39 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1842)
+Started GET "/admin/users/root/edit" for 118.21.158.208 at 2022-10-06 14:07:40 +0900
+Processing by Admin::UsersController#edit as HTML
+  Parameters: {"id"=>"root"}
+  Rendered layout layouts/admin.html.haml (Duration: 80.4ms | Allocations: 43024)
+Completed 200 OK in 99ms (Views: 77.0ms | ActiveRecord: 6.6ms | Elasticsearch: 0.0ms | Allocations: 48927)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:07:40 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1276)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:07:41 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1842)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:07:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 46ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 931)
+Started GET "/admin/users/root" for 118.21.158.208 at 2022-10-06 14:07:43 +0900
+Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"root"}
+  Rendered layout layouts/admin.html.haml (Duration: 225.0ms | Allocations: 156981)
+Completed 200 OK in 249ms (Views: 202.6ms | ActiveRecord: 26.5ms | Elasticsearch: 0.0ms | Allocations: 166204)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:07:44 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1277)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:07:44 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1850)
+Started POST "/users/sign_out" for 118.21.158.208 at 2022-10-06 14:07:45 +0900
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://git.rinlink.jp/users/sign_in
+Completed 302 Found in 21ms (ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 7692)
+Started GET "/users/sign_in" for 118.21.158.208 at 2022-10-06 14:07:45 +0900
+Processing by SessionsController#new as HTML
+  Rendered layout layouts/devise.html.haml (Duration: 23.4ms | Allocations: 10272)
+Completed 200 OK in 40ms (Views: 23.7ms | ActiveRecord: 1.1ms | Elasticsearch: 0.0ms | Allocations: 15422)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:07:46 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1842)
+Started POST "/users/sign_in" for 118.21.158.208 at 2022-10-06 14:07:47 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"lin", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Completed 401 Unauthorized in 182ms (ActiveRecord: 7.8ms | Elasticsearch: 0.0ms | Allocations: 15888)
+Processing by SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"lin", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  Rendered layout layouts/devise.html.haml (Duration: 19.4ms | Allocations: 10035)
+Completed 200 OK in 99ms (Views: 19.6ms | ActiveRecord: 0.8ms | Elasticsearch: 0.0ms | Allocations: 14301)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:07:48 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1870)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:07:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 48ms (Views: 0.7ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 931)
+Started POST "/users/sign_in" for 118.21.158.208 at 2022-10-06 14:08:02 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"lin", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Completed 401 Unauthorized in 191ms (ActiveRecord: 8.2ms | Elasticsearch: 0.0ms | Allocations: 18098)
+Processing by SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"lin", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  Rendered layout layouts/devise.html.haml (Duration: 20.9ms | Allocations: 9302)
+Completed 200 OK in 102ms (Views: 21.3ms | ActiveRecord: 0.9ms | Elasticsearch: 0.0ms | Allocations: 13578)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:03 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1842)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:08:08 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 110.4ms | Allocations: 84863)
+Completed 200 OK in 116ms (Views: 109.4ms | ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 86726)
+Started POST "/users/sign_in" for 118.21.158.208 at 2022-10-06 14:08:12 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"linlin", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Completed 401 Unauthorized in 185ms (ActiveRecord: 6.5ms | Elasticsearch: 0.0ms | Allocations: 17019)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:08:12 +0900
+Processing by MetricsController#index as HTML
+Started GET "/users/sign_in" for 118.21.158.208 at 2022-10-06 14:08:12 +0900
+Processing by SessionsController#new as HTML
+Completed 200 OK in 47ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+  Rendered layout layouts/devise.html.haml (Duration: 24.6ms | Allocations: 10688)
+Completed 200 OK in 47ms (Views: 24.9ms | ActiveRecord: 1.1ms | Elasticsearch: 0.0ms | Allocations: 17784)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:12 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1850)
+Started POST "/users/sign_in" for 118.21.158.208 at 2022-10-06 14:08:21 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"login"=>"root", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+Redirected to http://git.rinlink.jp/
+Completed 302 Found in 201ms (ActiveRecord: 9.3ms | Elasticsearch: 0.0ms | Allocations: 21160)
+Started GET "/" for 118.21.158.208 at 2022-10-06 14:08:21 +0900
+Processing by RootController#index as HTML
+  Rendered layout layouts/dashboard.html.haml (Duration: 161.3ms | Allocations: 136818)
+Completed 200 OK in 271ms (Views: 160.5ms | ActiveRecord: 41.0ms | Elasticsearch: 0.0ms | Allocations: 166213)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:22 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1850)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:08:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 46ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 931)
+Started GET "/admin" for 118.21.158.208 at 2022-10-06 14:08:29 +0900
+Processing by Admin::DashboardController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 333.2ms | Allocations: 148605)
+Completed 200 OK in 399ms (Views: 183.4ms | ActiveRecord: 177.8ms | Elasticsearch: 0.0ms | Allocations: 169285)
+Started GET "/api/v4/application/statistics" for 118.21.158.208 at 2022-10-06 14:08:30 +0900
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 162)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:08:30 +0900
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 93)
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1478)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:08:30 +0900
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:30 +0900
+Processing by PwaController#manifest as JSON
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1852)
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 3154)
+Started GET "/admin/users" for 118.21.158.208 at 2022-10-06 14:08:32 +0900
+Processing by Admin::UsersController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 268.4ms | Allocations: 197923)
+Completed 200 OK in 313ms (Views: 243.4ms | ActiveRecord: 48.6ms | Elasticsearch: 0.0ms | Allocations: 207757)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:08:33 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1277)
+Started POST "/api/graphql" for 118.21.158.208 at 2022-10-06 14:08:33 +0900
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by GraphqlController#execute as */*
+  Parameters: {"_json"=>[{"operationName"=>"getUsersGroupCounts", "variables"=>"[FILTERED]", "query"=>"query getUsersGroupCounts($usernames: [String!]) {\n  users(usernames: $usernames) {\n    nodes {\n      id\n      groupCount\n      __typename\n    }\n    __typename\n  }\n}\n"}], "graphql"=>{"_json"=>[{"operationName"=>"getUsersGroupCounts", "variables"=>"[FILTERED]", "query"=>"query getUsersGroupCounts($usernames: [String!]) {\n  users(usernames: $usernames) {\n    nodes {\n      id\n      groupCount\n      __typename\n    }\n    __typename\n  }\n}\n"}]}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:33 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1870)
+Completed 200 OK in 54ms (Views: 0.3ms | ActiveRecord: 6.2ms | Elasticsearch: 0.0ms | Allocations: 26352)
+Started GET "/admin" for 118.21.158.208 at 2022-10-06 14:08:38 +0900
+Processing by Admin::DashboardController#index as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 330.8ms | Allocations: 146523)
+Completed 200 OK in 391ms (Views: 180.5ms | ActiveRecord: 174.9ms | Elasticsearch: 0.0ms | Allocations: 164740)
+Started GET "/api/v4/application/statistics" for 118.21.158.208 at 2022-10-06 14:08:39 +0900
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:08:39 +0900
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by Admin::VersionCheckController#version_check as JSON
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 93)
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1277)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:08:39 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1277)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:39 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1850)
+Started GET "/admin/users/new" for 118.21.158.208 at 2022-10-06 14:08:41 +0900
+Processing by Admin::UsersController#new as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 135.3ms | Allocations: 103532)
+Completed 200 OK in 152ms (Views: 130.3ms | ActiveRecord: 6.7ms | Elasticsearch: 0.0ms | Allocations: 109504)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:08:42 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1277)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:42 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1842)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:08:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 47ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 931)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:44 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1843)
+Started GET "/admin/dashboard/stats" for 118.21.158.208 at 2022-10-06 14:08:46 +0900
+Processing by Admin::DashboardController#stats as HTML
+  Rendered layout layouts/admin.html.haml (Duration: 109.8ms | Allocations: 77106)
+Completed 200 OK in 130ms (Views: 109.5ms | ActiveRecord: 4.8ms | Elasticsearch: 0.0ms | Allocations: 84657)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:08:46 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1277)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:46 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1850)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:48 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.3ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1870)
+Started GET "/admin/users?sort=created_desc" for 118.21.158.208 at 2022-10-06 14:08:55 +0900
+Processing by Admin::UsersController#index as HTML
+  Parameters: {"sort"=>"created_desc"}
+  Rendered layout layouts/admin.html.haml (Duration: 119.9ms | Allocations: 56928)
+Completed 200 OK in 149ms (Views: 109.4ms | ActiveRecord: 22.4ms | Elasticsearch: 0.0ms | Allocations: 62741)
+Started GET "/admin/version_check.json" for 118.21.158.208 at 2022-10-06 14:08:56 +0900
+Processing by Admin::VersionCheckController#version_check as JSON
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1277)
+Started POST "/api/graphql" for 118.21.158.208 at 2022-10-06 14:08:56 +0900
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Processing by GraphqlController#execute as */*
+  Parameters: {"_json"=>[{"operationName"=>"getUsersGroupCounts", "variables"=>"[FILTERED]", "query"=>"query getUsersGroupCounts($usernames: [String!]) {\n  users(usernames: $usernames) {\n    nodes {\n      id\n      groupCount\n      __typename\n    }\n    __typename\n  }\n}\n"}], "graphql"=>{"_json"=>[{"operationName"=>"getUsersGroupCounts", "variables"=>"[FILTERED]", "query"=>"query getUsersGroupCounts($usernames: [String!]) {\n  users(usernames: $usernames) {\n    nodes {\n      id\n      groupCount\n      __typename\n    }\n    __typename\n  }\n}\n"}]}}
+Processing by Gitlab::RequestForgeryProtection::Controller#index as HTML
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 110)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:08:56 +0900
+Completed 200 OK in 25ms (Views: 0.3ms | ActiveRecord: 3.1ms | Elasticsearch: 0.0ms | Allocations: 7723)
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1842)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:08:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 48ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 931)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:09:09 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 107.9ms | Allocations: 83963)
+Completed 200 OK in 113ms (Views: 107.3ms | ActiveRecord: 1.4ms | Elasticsearch: 0.0ms | Allocations: 85624)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:09:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 47ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/profile/preferences" for 118.21.158.208 at 2022-10-06 14:09:13 +0900
+Processing by Profiles::PreferencesController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 89.9ms | Allocations: 47524)
+Completed 200 OK in 106ms (Views: 88.2ms | ActiveRecord: 3.4ms | Elasticsearch: 0.0ms | Allocations: 52224)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:09:13 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1842)
+Started GET "/-/profile/account" for 118.21.158.208 at 2022-10-06 14:09:15 +0900
+Processing by Profiles::AccountsController#show as HTML
+  Rendered layout layouts/profile.html.haml (Duration: 214.4ms | Allocations: 132308)
+Completed 200 OK in 236ms (Views: 211.1ms | ActiveRecord: 7.1ms | Elasticsearch: 0.0ms | Allocations: 140461)
+Started GET "/-/manifest.json" for 118.21.158.208 at 2022-10-06 14:09:16 +0900
+Processing by PwaController#manifest as JSON
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 1842)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:09:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 47ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 931)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:09:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 47ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:09:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 48ms (Views: 0.6ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 931)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:10:09 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 157.3ms | Allocations: 84467)
+Completed 200 OK in 163ms (Views: 156.3ms | ActiveRecord: 1.6ms | Elasticsearch: 0.0ms | Allocations: 86331)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:10:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 48ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:10:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 48ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:10:42 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 47ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:10:57 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 48ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/help" for 127.0.0.1 at 2022-10-06 14:11:09 +0900
+Processing by HelpController#index as */*
+  Rendered layout layouts/help.html.haml (Duration: 109.0ms | Allocations: 84491)
+Completed 200 OK in 114ms (Views: 108.3ms | ActiveRecord: 1.4ms | Elasticsearch: 0.0ms | Allocations: 86354)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:11:12 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 47ms (Views: 0.5ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)
+Started GET "/-/metrics" for 127.0.0.1 at 2022-10-06 14:11:27 +0900
+Processing by MetricsController#index as HTML
+Completed 200 OK in 47ms (Views: 0.4ms | ActiveRecord: 0.0ms | Elasticsearch: 0.0ms | Allocations: 930)

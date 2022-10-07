@@ -1,0 +1,15 @@
+2022-10-07_05:54:50.35528 received TERM from runit, sending INT instead to force quit connections
+2022-10-07_05:54:50.35622 LOG:  received fast shutdown request
+2022-10-07_05:54:50.36072 LOG:  aborting any active transactions
+2022-10-07_05:54:50.36074 FATAL:  terminating connection due to administrator command
+2022-10-07_05:54:50.36075 FATAL:  terminating connection due to administrator command
+2022-10-07_05:54:50.36075 FATAL:  terminating connection due to administrator command
+2022-10-07_05:54:50.36075 FATAL:  terminating connection due to administrator command
+2022-10-07_05:54:50.36075 FATAL:  terminating connection due to administrator command
+2022-10-07_05:54:50.36076 FATAL:  terminating connection due to administrator command
+2022-10-07_05:54:50.36076 FATAL:  terminating connection due to administrator command
+2022-10-07_05:54:50.36076 FATAL:  terminating connection due to administrator command
+2022-10-07_05:54:50.36076 LOG:  background worker "logical replication launcher" (PID 332) exited with exit code 1
+2022-10-07_05:54:50.36077 FATAL:  terminating connection due to administrator command
+2022-10-07_05:54:50.36209 LOG:  shutting down
+2022-10-07_05:54:50.36854 LOG:  database system is shut down

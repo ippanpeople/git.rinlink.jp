@@ -508,26 +508,11 @@ production: &base
   # You can inspect a sample of the LDAP users with login access by running:
   #   bundle exec rake gitlab:ldap:check RAILS_ENV=production
   ldap:
-    enabled: false
+    enabled: true
     sync_time: 
     prevent_ldap_sign_in: false
-    host: 
-    port: 
-    uid: 
-    method:  # "tls" or "ssl" or "plain"
-    bind_dn: 
-    password: 
-    active_directory: 
-    allow_username_or_email_login: 
-    lowercase_usernames: 
-    base: 
-    user_filter: 
-
-    ## EE only
-    group_base: 
-    admin_group: 
-    sync_ssh_keys: 
-    sync_time: 
+    servers:
+      main: {"label":"RINRIN.NET AD","host":"rinrin.net","port":3268,"uid":"SamAccountName","encryption":"plain","verify_certificates":true,"bind_dn":"cn=codimd,ou=AdminUser,dc=rinrin,dc=net","password":"rinriN@123","block_auto_created_users":false,"allow_username_or_email_login":true,"base":"cn=lin,ou=AdminUser,dc=rinrin,dc=net","user_filter":""}
 
   ## Smartcard authentication settings
   smartcard:
@@ -778,7 +763,7 @@ production: &base
   # yourself, and then update the values here.
   # https://docs.gitlab.com/ee/administration/monitoring/prometheus/
   prometheus:
-    enabled: true
+    enabled: false
     server_address: "localhost:9090"
 
   ## Consul settings

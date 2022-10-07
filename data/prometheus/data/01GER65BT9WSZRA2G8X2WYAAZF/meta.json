@@ -1,0 +1,17 @@
+{
+	"ulid": "01GER65BT9WSZRA2G8X2WYAAZF",
+	"minTime": 1665100800661,
+	"maxTime": 1665108000000,
+	"stats": {
+		"numSamples": 13809423,
+		"numSeries": 28930,
+		"numChunks": 115090
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01GER65BT9WSZRA2G8X2WYAAZF"
+		]
+	},
+	"version": 1
+}

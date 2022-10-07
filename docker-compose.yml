@@ -27,6 +27,27 @@ services:
         nginx['enable'] = true
         gitlab_rails['gitlab_shell_ssh_port'] = 22
         gitlab_rails['time_zone'] = 'Asia/Tokyo'
+        gitlab_rails['gitlab_signup_enabled'] = false
+        gitlab_rails['ldap_enabled'] = true
+        gitlab_rails['ldap_servers'] = YAML.load <<-'EOS'
+          main:
+            label: 'RINRIN.NET AD'
+            host: 'rinrin.net'
+            port: 3268
+            uid: 'SamAccountName'
+            encryption: 'plain'
+            verify_certificates: true
+            bind_dn: 'cn=codimd,ou=AdminUser,dc=rinrin,dc=net'
+            password: 'rinriN@123'
+            block_auto_created_users: false
+            allow_username_or_email_login: true
+            base: 'cn=lin,ou=AdminUser,dc=rinrin,dc=net'
+            user_filter: ''
+        EOS
+        gitlab_rails['ldap_block_auto_created_users'] = false
+        prometheus['enable'] = false
+    dns:
+      - 10.0.1.200
 
 
 

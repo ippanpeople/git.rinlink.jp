@@ -1,0 +1,17 @@
+{
+	"ulid": "01GERD132A4BN9CB7DYPZZX5PX",
+	"minTime": 1665108000661,
+	"maxTime": 1665115200000,
+	"stats": {
+		"numSamples": 13897941,
+		"numSeries": 29295,
+		"numChunks": 115929
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01GERD132A4BN9CB7DYPZZX5PX"
+		]
+	},
+	"version": 1
+}

@@ -1,0 +1,44 @@
+2022-10-07_05:55:30.19617 275:C 07 Oct 2022 14:55:30.196 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2022-10-07_05:55:30.19628 275:C 07 Oct 2022 14:55:30.196 # Redis version=6.2.7, bits=64, commit=e6f67092, modified=1, pid=275, just started
+2022-10-07_05:55:30.19629 275:C 07 Oct 2022 14:55:30.196 # Configuration loaded
+2022-10-07_05:55:30.19677 275:M 07 Oct 2022 14:55:30.196 * monotonic clock: POSIX clock_gettime
+2022-10-07_05:55:30.19711 275:M 07 Oct 2022 14:55:30.197 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+2022-10-07_05:55:30.19721                 _._                                                  
+2022-10-07_05:55:30.19721            _.-``__ ''-._                                             
+2022-10-07_05:55:30.19722       _.-``    `.  `_.  ''-._           Redis 6.2.7 (e6f67092/1) 64 bit
+2022-10-07_05:55:30.19722   .-`` .-```.  ```\/    _.,_ ''-._                                  
+2022-10-07_05:55:30.19722  (    '      ,       .-`  | `,    )     Running in standalone mode
+2022-10-07_05:55:30.19722  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2022-10-07_05:55:30.19722  |    `-._   `._    /     _.-'    |     PID: 275
+2022-10-07_05:55:30.19723   `-._    `-._  `-./  _.-'    _.-'                                   
+2022-10-07_05:55:30.19723  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2022-10-07_05:55:30.19723  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+2022-10-07_05:55:30.19723   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2022-10-07_05:55:30.19723  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2022-10-07_05:55:30.19724  |    `-._`-._        _.-'_.-'    |                                  
+2022-10-07_05:55:30.19724   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2022-10-07_05:55:30.19724       `-._    `-.__.-'    _.-'                                       
+2022-10-07_05:55:30.19724           `-._        _.-'                                           
+2022-10-07_05:55:30.19726               `-.__.-'                                               
+2022-10-07_05:55:30.19726 
+2022-10-07_05:55:30.19726 275:M 07 Oct 2022 14:55:30.197 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2022-10-07_05:55:30.19727 275:M 07 Oct 2022 14:55:30.197 # Server initialized
+2022-10-07_05:55:30.19729 275:M 07 Oct 2022 14:55:30.197 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2022-10-07_05:55:30.19758 275:M 07 Oct 2022 14:55:30.197 * Loading RDB produced by version 6.2.7
+2022-10-07_05:55:30.19759 275:M 07 Oct 2022 14:55:30.197 * RDB age 38 seconds
+2022-10-07_05:55:30.19761 275:M 07 Oct 2022 14:55:30.197 * RDB memory usage when created 9.82 Mb
+2022-10-07_05:55:30.21042 275:M 07 Oct 2022 14:55:30.210 # Done loading RDB, keys loaded: 631, keys expired: 1.
+2022-10-07_05:55:30.21043 275:M 07 Oct 2022 14:55:30.210 * DB loaded from disk: 0.013 seconds
+2022-10-07_05:55:30.21044 275:M 07 Oct 2022 14:55:30.210 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2022-10-07_06:00:31.00540 275:M 07 Oct 2022 15:00:31.005 * 10 changes in 300 seconds. Saving...
+2022-10-07_06:00:31.00645 275:M 07 Oct 2022 15:00:31.006 * Background saving started by pid 1225
+2022-10-07_06:00:31.01663 1225:C 07 Oct 2022 15:00:31.016 * DB saved on disk
+2022-10-07_06:00:31.01712 1225:C 07 Oct 2022 15:00:31.017 * RDB: 2 MB of memory used by copy-on-write
+2022-10-07_06:00:31.10671 275:M 07 Oct 2022 15:00:31.106 * Background saving terminated with success
+2022-10-07_06:05:22.03221 275:signal-handler (1665122722) Received SIGTERM scheduling shutdown...
+2022-10-07_06:05:22.08836 275:M 07 Oct 2022 15:05:22.088 # User requested shutdown...
+2022-10-07_06:05:22.08837 275:M 07 Oct 2022 15:05:22.088 * Saving the final RDB snapshot before exiting.
+2022-10-07_06:05:22.09800 275:M 07 Oct 2022 15:05:22.097 * DB saved on disk
+2022-10-07_06:05:22.09801 275:M 07 Oct 2022 15:05:22.097 * Removing the pid file.
+2022-10-07_06:05:22.09803 275:M 07 Oct 2022 15:05:22.098 * Removing the unix socket file.
+2022-10-07_06:05:22.09804 275:M 07 Oct 2022 15:05:22.098 # Redis is now ready to exit, bye bye...
